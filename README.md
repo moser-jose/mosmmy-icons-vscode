@@ -1,35 +1,23 @@
-# Icons `Mosmmy Icons Vscode` para  o vscode
+# `Mosmmy Icons Vscode` para  o vscode
 
 Mais de 200 icons para ficheiros e pastas no vscode
 
  <div align="center">
 
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-
-</div>
-
-<div align="center">
-
-### Exemplos de Código `(HTML, JS, CSS )`
-
-![Exemplo 1](img/imagem1.jpg)
-
-![Exemplo 2](img/imagem2.jpg)
-
-![Exemplo 3](img/imagem3.jpg)
 
 </div>
 
 ## Instalação
 
 1. Abrir o **Extensions** sidebar panel no VS Code. `View → Extensions`
-2. Procurar por `Mosmmy Icons Vscode` - by **Moser José**
+2. Procurar por `Mosmmy Icons` - by **Moser José**
 3. Clicar em **Install** para instalar o tema de icons
 4. Clicar em **Reload** para recarregar o `vscode`
-5. Ir em File > Preferences > Color Theme > **Mosmmy Icons Vscode**
+5. Ir em File > Preferences > File Icon Theme > **Mosmmy Icons Vscode**
 
 ## Configurações Recomendadas
 
