@@ -1,9 +1,10 @@
-# Tema `Mosmmy Theme` para  o vscode
+# Icons `Mosmmy Icons Vscode` para  o vscode
+
+Mais de 200 icons para ficheiros e pastas no vscode
 
  <div align="center">
 
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
-[![Downloads](https://vsmarketplacebadge.apphb.com/downloads/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/moserjose.mosmmy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
@@ -25,20 +26,16 @@
 ## Instalação
 
 1. Abrir o **Extensions** sidebar panel no VS Code. `View → Extensions`
-2. Procurar por `Mosmmy Theme` - by **Moser José**
-3. Clicar em **Install** para instalar o tema
+2. Procurar por `Mosmmy Icons Vscode` - by **Moser José**
+3. Clicar em **Install** para instalar o tema de icons
 4. Clicar em **Reload** para recarregar o `vscode`
-5. Ir em File > Preferences > Color Theme > **Mosmmy Theme**
+5. Ir em File > Preferences > Color Theme > **Mosmmy Icons Vscode**
 
 ## Configurações Recomendadas
 
 ```js
 {
-  "editor.fontFamily": "monospace",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 25,
-  "editor.wordWrap": "on",
-  "workbench.colorTheme": "Mosmmy Theme",
+  "workbench.iconTheme": "mosmmy-icons-vscode",
 }
 ```
 ## Changelog
