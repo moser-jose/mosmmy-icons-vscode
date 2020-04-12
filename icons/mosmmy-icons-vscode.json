@@ -720,7 +720,37 @@
 		"_file_batch": {
 			"iconPath": "./svg/mo_file_script.svg"
 		}
+		,
+		"_folder_log": {
+			"iconPath": "./svg/mo_folder_log.svg"
+		},
+		"_folder_log_open": {
+			"iconPath": "./svg/mo_folder_log_open.svg"
+		}
+		,
+		"_file_log": {
+			"iconPath": "./svg/mo_file_log.svg"
+		},
+		"_folder_app": {
+			"iconPath": "./svg/mo_folder_app.svg"
+		},
+		"_folder_app_open": {
+			"iconPath": "./svg/mo_folder_app_open.svg"
+		},
+		
+		"_folder_www": {
+			"iconPath": "./svg/mo_folder_www.svg"
+		},
+		"_folder_www_open": {
+			"iconPath": "./svg/mo_folder_www_open.svg"
+		},
 
+		"_folder_public": {
+			"iconPath": "./svg/mo_folder_public.svg"
+		},
+		"_folder_public_open": {
+			"iconPath": "./svg/mo_folder_public_open.svg"
+		}
 	},
 	"file": "_file",
 	"folder": "_folder",
@@ -728,6 +758,11 @@
 	"rootFolder": "_folder_root",
 	"rootFolderExpanded": "_folder_root_open",
 	"folderNames": {
+		"app":"_folder_app",
+		"www":"_folder_www",
+		"public":"_folder_public",
+		"htdocs":"_folder_www",
+		"logs":"_folder_log",
 		".vscode": "_folder_vscode",
 		".vscode-test": "_folder_vscode",
 		"bower_components": "_folder_bower",
@@ -792,6 +827,11 @@
 
 	},
 	"folderNamesExpanded": {
+		"app":"_folder_app_open",
+		"www":"_folder_www_open",
+		"public":"_folder_public_open",
+		"htdocs":"_folder_www_open",
+		"logs":"_folder_log_open",
 		"dist": "_folder_dist_open",
 		"src": "_folder_src_open",
 		".bin": "_folder_bin_open",
@@ -855,6 +895,7 @@
 		"temp": "_folder_temp_open"
 	},
 	"fileExtensions": {
+		"log":"_file_log",
 		"script":"_file_script",
 		"txt":"_file_text",
 		"map":"_file_map",
@@ -958,7 +999,7 @@
 		"gif": "_file_image",
 		"png": "_file_image",
 		"bmp": "_file_image",
-		"ico": "_file_image",
+		"ico": "_file_favicon",
 		"jade": "_file_jade",
 		"pug": "_file_pug",
 		"java": "_file_java",
@@ -1287,7 +1328,8 @@
 		"tasks.json": "_file_visualstudiocode",
 		"jsconfig.json": "_file_json",
 		"tsconfig.json": "_file_json",
-		"webpack.js": "_file_webpack",
+        "webpack.js": "_file_webpack",
+        "webpack.mix.js": "_file_webpack",
 		"webpack.ts": "_file_webpack",
 		"webpack.config.js": "_file_webpack",
 		"webpack.config.ts": "_file_webpack",
