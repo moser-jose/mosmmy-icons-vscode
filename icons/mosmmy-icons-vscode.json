@@ -482,7 +482,7 @@
 			"iconPath": "./svg/zephir.png"
 		},
 		"_file_zip": {
-			"iconPath": "./svg/mo_file_zip.png"
+			"iconPath": "./svg/mo_file_zip.svg"
 		},
 		"_file_audio": {
 			"iconPath": "./svg/mo_file_audio.svg"
@@ -492,12 +492,6 @@
 		},
 		"_file_word": {
 			"iconPath": "./svg/mo_file_word.svg"
-		},
-		"_file_excel": {
-			"iconPath": "./svg/mo_file_excel.svg"
-		},
-		"_file_powerpoint": {
-			"iconPath": "./svg/mo_file_powerpoint.svg"
 		},
 		"_file_favicon": {
 			"iconPath": "./svg/mo_file_favicon.svg"
@@ -968,8 +962,65 @@
 			"iconPath": "./svg/mo_folder_cli_open.svg"
         }
         ,
+        "_folder_mongodb": {
+			"iconPath": "./svg/mo_folder_mongodb.svg"
+		},
+		"_folder_mongodb_open": {
+			"iconPath": "./svg/mo_folder_mongodb_open.svg"
+        }
+        ,
+        "_folder_client": {
+			"iconPath": "./svg/mo_folder_client.svg"
+		},
+		"_folder_client_open": {
+			"iconPath": "./svg/mo_folder_client_open.svg"
+        }
+        ,
+        "_folder_service": {
+			"iconPath": "./svg/mo_folder_service.svg"
+		},
+		"_folder_service_open": {
+			"iconPath": "./svg/mo_folder_service_open.svg"
+        }
+        ,
+        "_folder_component": {
+			"iconPath": "./svg/mo_folder_component.svg"
+		},
+		"_folder_component_open": {
+			"iconPath": "./svg/mo_folder_component_open.svg"
+        }
+        ,
+        "_folder_route": {
+			"iconPath": "./svg/mo_folder_route.svg"
+		},
+		"_folder_route_open": {
+			"iconPath": "./svg/mo_folder_route_open.svg"
+        }
+        ,
 		"_file_xsl": {
 			"iconPath": "./svg/mo_file_xsl.svg"
+        },
+
+        "_file_access":{
+            "iconPath": "./svg/mo_file_access.svg"
+        },
+        "_file_excel":{
+            "iconPath": "./svg/mo_file_excel.svg"
+        },
+		"_file_powerpoint": {
+			"iconPath": "./svg/mo_file_powerpoint.svg"
+		},
+        "_file_outlook":{
+            "iconPath": "./svg/mo_file_outlook.svg"
+        },
+        "_file_onenote":{
+            "iconPath": "./svg/mo_file_onenote.svg"
+        },
+        "_file_publisher":{
+            "iconPath": "./svg/mo_file_publisher.svg"
+        },
+        "_file_workbench":{
+            "iconPath": "./svg/mo_file_workbench.svg"
         }
         
 	},
@@ -1218,21 +1269,21 @@
         "commands":"_folder_cli",
         "commandline":"_folder_cli",
         "console":"_folder_cli",
-            "component":"_folder_component", 
-            "components":"_folder_component", 
-            ".components":"_folder_component", 
-            "widgets":"_folder_component",
-            "route":"_folder_route", 
-            "routes":"_folder_route", 
-            "_route":"_folder_route", 
-            "_routes":"_folder_route", 
-            "routers":"_folder_route",
+        "component":"_folder_component", 
+        "components":"_folder_component", 
+        ".components":"_folder_component", 
+        "widgets":"_folder_component",
+        "route":"_folder_route", 
+        "routes":"_folder_route", 
+        "_route":"_folder_route", 
+        "_routes":"_folder_route", 
+        "routers":"_folder_route",
         "tools":"_folder_tools", 
         ".tools":"_folder_tools", 
         "util":"_folder_tools", 
         "utils":"_folder_tools",
-            "service":"_folder_service",
-            "services":"_folder_service",
+        "service":"_folder_service",
+        "services":"_folder_service",
 
         "mariadb":"_folder_mariadb",
         "maria":"_folder_mariadb",
@@ -1241,7 +1292,10 @@
         "doc":"_folder_docs",
         "typescript":"_folder_typescript",
         "ts":"_folder_typescript",
-        "server":"_folder_server"
+        "server":"_folder_server",
+        "mongodb":"_folder_mongodb", 
+        "mongo":"_folder_mongodb",
+        "client":"_folder_client"
 
            
 
@@ -1486,21 +1540,21 @@
         "commands":"_folder_cli_open",
         "commandline":"_folder_cli_open",
         "console":"_folder_cli_open",
-            "component":"_folder_component_open", 
-            "components":"_folder_component_open", 
-            ".components":"_folder_component_open", 
-            "widgets":"_folder_component_open",
-            "route":"_folder_route_open", 
-            "routes":"_folder_route_open", 
-            "_route":"_folder_route_open", 
-            "_routes":"_folder_route_open", 
-            "routers":"_folder_route_open",
+        "component":"_folder_component_open", 
+        "components":"_folder_component_open", 
+        ".components":"_folder_component_open", 
+        "widgets":"_folder_component_open",
+        "route":"_folder_route_open", 
+        "routes":"_folder_route_open", 
+        "_route":"_folder_route_open", 
+        "_routes":"_folder_route_open", 
+        "routers":"_folder_route_open",
         "tools":"_folder_tools_open", 
         ".tools":"_folder_tools_open", 
         "util":"_folder_tools_open", 
         "utils":"_folder_tools_open",
-            "service":"_folder_service_open",
-            "services":"_folder_service_open",
+        "service":"_folder_service_open",
+        "services":"_folder_service_open",
         "mariadb":"_folder_mariadb_open",
         "maria":"_folder_mariadb_open",
         ".vs":"_folder_visualstudio_open",
@@ -1508,7 +1562,10 @@
         "doc":"_folder_docs_open",
         "typescript":"_folder_typescript_open",
         "ts":"_folder_typescript_open",
-        "server":"_folder_server_open"
+        "server":"_folder_server_open",
+        "mongodb":"_folder_mongodb_open", 
+        "mongo":"_folder_mongodb_open",
+        "client":"_folder_client_open"
 	},
 	"fileExtensions": {
 		"log":"_file_log",
@@ -1620,8 +1677,13 @@
 		"png": "_file_image",
 		"bmp": "_file_image",
 		"ico": "_file_favicon",
-		"jade": "_file_jade",
-		"pug": "_file_pug",
+		"jade": "_file_pug",
+        "pug": "_file_pug",
+        ".jade-lintrc": "_file_pug",
+        ".pug-lintrc": "_file_pug",
+        ".jade-lint.json": "_file_pug",
+        ".pug-lintrc.js": "_file_pug",
+        ".pug-lintrc.json": "_file_pug",
 		"java": "_file_java",
 		"class": "_file_java-alt",
 		"jar": "_file_java",
@@ -1630,7 +1692,6 @@
 		"json": "_file_json",
 		"jl": "_file_julia",
 		"key": "_file_key",
-		"pub": "_file_key",
 		"pem": "_file_key",
 		"asc": "_file_key",
 		"ppk": "_file_key",
@@ -1812,7 +1873,14 @@
 		"avi": "_file_video",
 		"m4v": "_file_video",
 		"qt": "_file_video",
-		"mp2": "_file_video",
+        "mp2": "_file_video",
+        "potm": "_file_powerpoint",
+        "ppsx": "_file_powerpoint",
+        "pa": "_file_powerpoint",
+        "ppa": "_file_powerpoint",
+        "ppam": "_file_powerpoint",
+        "sldm": "_file_powerpoint",
+        "sldx": "_file_powerpoint",
 		"ppt": "_file_powerpoint",
 		"pptx": "_file_powerpoint",
 		"pptm": "_file_powerpoint",
@@ -1899,7 +1967,37 @@
 		"vo": "_file_verilog",
 		"sv": "_file_verilog_sys",
 		"svelte": "_file_svelte",
-		"razor": "_file_razor"
+        "razor": "_file_razor",
+        "accdb": "_file_access",
+        "accdt": "_file_access",
+        "mdb": "_file_access",
+        "accda": "_file_access",
+        "accdc": "_file_access",
+        "accde": "_file_access",
+        "accdp": "_file_access",
+        "accdr": "_file_access",
+        "accdu": "_file_access",
+        "ade": "_file_access",
+        "adp": "_file_access",
+        "laccdb": "_file_access",
+        "ldb": "_file_access",
+        "mam": "_file_access",
+        "maq": "_file_access",
+        "mdw": "_file_access",
+        "one": "_file_onenote", 
+        "onepkg": "_file_onenote", 
+        "onetoc": "_file_onenote", 
+        "onetoc2": "_file_onenote", 
+        "sig": "_file_outloo",
+        "pst": "_file_outlook", 
+        "bcmx": "_file_outlook", 
+        "otm": "_file_outlook", 
+        "msg": "_file_outlook", 
+        "oft": "_file_outlook",
+        "pub": "_file_publisher", 
+        "puz": "_file_publisher",
+        "mwb":"_file_workbench",
+        "mwb.bak":"_file_workbench"
 	},
 	"fileNames": {
 		"composer.json":"_file_composer",
