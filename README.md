@@ -4,8 +4,6 @@ Mais de 200 ícones para ficheiros e pastas no vscode
 
  <div align="center">
 
-
-
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/moserjose.mosmmy-icons-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/moserjose.mosmmy-icons-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/moserjose.mosmmy-icons-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
