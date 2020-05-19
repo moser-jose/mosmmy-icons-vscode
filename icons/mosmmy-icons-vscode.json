@@ -2000,6 +2000,7 @@
         "mwb.bak":"_file_workbench"
 	},
 	"fileNames": {
+        "artisan":"_file_php",
 		"composer.json":"_file_composer",
 		"composer.lock":"_file_composer",
 		"latex-expl3": "_file_tex",
