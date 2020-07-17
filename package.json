@@ -3,7 +3,7 @@
     "displayName": "Mosmmy Icons",
     "description": "Official Mosmmy Icons for Mosmmy Theme",
     "publisher": "moserjose",
-    "version": "0.0.10",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.44.0"
     },
