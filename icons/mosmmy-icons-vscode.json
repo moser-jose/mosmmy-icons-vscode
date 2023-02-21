@@ -178,9 +178,6 @@
 		"_file_autoit": {
 			"iconPath": "./svg/mo_file_autoit.svg"
 		},
-		"_file_binary": {
-			"iconPath": "./svg/mo_file_binary.svg"
-		},
 		"_file_blade": {
 			"iconPath": "./svg/mo_file_blade.svg"
 		},
@@ -195,9 +192,6 @@
 		},
 		"_file_codekit": {
 			"iconPath": "./svg/mo_file_codekit.svg"
-		},
-		"_file_coffeescript": {
-			"iconPath": "./svg/mo_file_coffeescript.svg"
 		},
 		"_file_coldfusion": {
 			"iconPath": "./svg/mo_file_coldfusion.svg"
@@ -767,12 +761,7 @@
 		},
 		"_folder_github_open": {
 			"iconPath": "./svg/mo_folder_github_open.svg"
-        }
-
-
-
-
-        ,
+        },
 		"_folder_locale": {
 			"iconPath": "./svg/mo_folder_locale.svg"
 		},
@@ -1021,8 +1010,60 @@
         },
         "_file_workbench":{
             "iconPath": "./svg/mo_file_workbench.svg"
+        },
+        "_file_coffeescript":{
+            "iconPath": "./svg/mo_file_coffeescript.svg"
+        },
+        "_file_groovy":{
+            "iconPath": "./svg/mo_file_groovy.svg"
+        },
+        "_file_hlsl":{
+            "iconPath": "./svg/mo_file_hlsl.svg"
+        },"_file_ignore":{
+            "iconPath": "./svg/mo_file_ignore.svg"
+        },"_file_xquery":{
+            "iconPath": "./svg/mo_file_xquery.svg"
         }
-        
+        ,"_file_makefile":{
+            "iconPath": "./svg/mo_file_makefile.svg"
+        },"_file_objectivec":{
+            "iconPath": "./svg/mo_file_objectivec.svg"
+        },"_file_shaderlab":{
+            "iconPath": "./svg/mo_file_shaderlab.svg"
+        }
+        ,"_file_styled_components":{
+            "iconPath": "./svg/mo_file_styled_components.svg"
+        }
+        ,"_file_xml":{
+            "iconPath": "./svg/mo_file_xml.svg"
+        }
+        ,"_file_vbnet":{
+            "iconPath": "./svg/mo_file_vbnet.svg"
+        }
+
+        ,"_file_tailwindcss":{
+            "iconPath": "./svg/mo_file_tailwindcss.svg"
+        },"_file_elasticsearch":{
+            "iconPath": "./svg/mo_file_elasticsearch.svg"
+        }
+        ,"_file_plaintext":{
+            "iconPath": "./svg/mo_file_plaintext.svg"
+        }
+        ,"_file_perl_":{
+            "iconPath": "./svg/mo_file_perl_.svg"
+        }
+
+        ,"_file_diff":{
+            "iconPath": "./svg/mo_file_diff.svg"
+        }
+        ,"_file_binary":{
+            "iconPath": "./svg/mo_file_binary.svg"
+        },"_file_cassandra":{
+            "iconPath": "./svg/mo_file_cassandra.svg"
+        }
+        ,"_file_dockercompose":{
+            "iconPath": "./svg/mo_file_dockercompose.png"
+        }
 	},
 	"file": "_file",
 	"folder": "_folder",
@@ -1574,7 +1615,7 @@
 	"fileExtensions": {
 		"log":"_file_log",
 		"script":"_file_script",
-		"txt":"_file_text",
+		"txt":"_file_plaintext",
 		"map":"_file_map",
 		"vsix":"_file_vsix",
 		"ai": "_file_illustrator",
@@ -1593,6 +1634,7 @@
 		"so": "_file_binary",
 		"pyc": "_file_binary",
 		"exe": "_file_exe",
+        "bibtex-style":"_file_tex",
 		"bowerrc": "_file_bower",
 		"c": "_file_c",
 		"h": "_file_c-h",
@@ -2014,7 +2056,7 @@
 		"brunch-config.ts": "_file_brunch",
 		"brunch-config.coffee": "_file_brunch",
 		"cmakelists.txt": "_file_cmake",
-		"makefile": "_file_settings",
+		"makefile": "_file_makefile",
 		"rakefile": "_file_ruby",
 		"docker-compose.yml": "_file_docker",
 		"dockerfile": "_file_docker",
@@ -2144,17 +2186,29 @@
 		"@.toml": "_file_toml"
 	},
 	"languageIds": {
+        "cuda-cpp":"_file_cuda",
         "git": "_file_git",
         "git-commit": "_file_git",
 		"git-rebase": "_file_git",
 		"latex-expl3": "_file_tex",
+        "latex":"_file_tex",
         "c": "_file_c",
+        "plaintext":"_file_plaintext",
+        "go":"_file_go",
+		"julia": "_file_julia",
+        "jade":"_file_pug",
+        "juliamarkdown":"_file_julia",
+        "rust":"_file_rust",
         "xsl":"_file_xsl",
+        "blade":"_file_blade",
+		"swift": "_file_swift",
 		"csharp": "_file_csharp",
+        "ruby":"_file_ruby",
 		"fsharp": "_file_fsharp",
 		"yaml": "_file_yaml",
 		"xml": "_file_xml",
 		"matlab": "_file_matlab",
+        "perl6":"_file_perl_",
 		"java": "_file_java",
 		"razor": "_file_razor",
 		"python": "_file_python",
@@ -2163,12 +2217,25 @@
 		"scala": "_file_scala",
 		"handlebars": "_file_handlebars",
 		"perl": "_file_perl",
-		"perl6": "_file_perl",
+        "phpx":"_file_php",
 		"haxe": "_file_haxe",
+        "properties":"_file_settings",
+        "editorconfig":"_file_editorconfig",
+        "diff":"_file_diff",
+        "log":"_file_log",
+        "lua":"_file_lua",
+        "vue":"_file_vue",
+        "javascriptreact":"_file_react",
+        "powershell":"_file_powershell",
+        "cpp":"_file_cpp",
+        "typescriptreact":"_file_react",
 		"hxml": "_file_haxe",
+        "ignore":"_file_ignore",
+        "sql":"_file_database",
 		"puppet": "_file_puppet",
 		"elixir": "_file_elixir",
 		"erlang": "_file_erlang",
+        "shelscript":"_file_shell",
 		"twig": "_file_twig",
 		"elm": "_file_elm",
 		"nunjucks": "_file_nunjucks",
@@ -2180,20 +2247,49 @@
         "apacheconf":"_file_apache",
 		"ng-template": "_file_angular",
 		"autoit": "_file_autoit",
+        "shellscript":"_file_shell",
 		"haml": "_file_haml",
+        "scss":"_file_sass",
 		"smarty": "_file_smarty",
+        "java-properties":"_file_java",
 		"docker": "_file_docker",
 		"dockerfile": "_file_docker",
+		"xquery":"_file_xquery",
 		"markdown": "_file_markdown",
 		"php": "_file_php",
+        "clojure":"_file_clojure",
+        "coffeescript":"_file_coffeescript",
+        "makefile":"_file_makefile",
+        "objective-c":"_file_objectivec",
+		"objective-cpp":"_file_objectivec",
+        "graphql":"_file_graphql",
 		"html": "_file_html",
+        "bibtex":"_file_tex",
+        "bibtex-style":"_file_tex",
+        "r":"_file_rlang",
+        "shaderlab":"_file_shaderlab",
 		"json": "_file_json",
 		"dart": "_file_dart",
+        "cql":"_file_cassandra",
 		"cuda": "_file_cuda",
+        "bat":"_file_shell",
+        "doctex":"_file_tex",
 		"pascal": "_file_pascal",
+        "groovy":"_file_groovy",
+        "dotenv":"_file_settings",
+        "elasticsearch":"_file_elasticsearch",
+        "es":"_file_elasticsearch",
+        "hlsl":"_file_hlsl",
+        "source.css.styled":"_file_styled_components",
 		"foxpro": "_file_foxpro",
+        "ini":"_file_settings",
 		"harbour": "_file_harbour",
-		"visualbasic": "_file_visualbasic"
+		"visualbasic": "_file_visualbasic",
+        "vb":"_file_visualbasic",
+        "tex":"_file_tex",
+        "tailwindcss":"_file_tailwindcss",
+        "code-text-binary":"_file_binary",
+        "dockercompose":"_file_dockercompose"
 	}
 
 }

@@ -1,5 +1,9 @@
 # Changelog
 
+## 🔖 0.1.2  -  21-02-2023
+
+- Acréscimo de 21 ícones para ficheiros
+
 ## 🔖 0.0.8  -  24-04-2020
 
 - Acréscimo de 8 ícones para ficheiros
