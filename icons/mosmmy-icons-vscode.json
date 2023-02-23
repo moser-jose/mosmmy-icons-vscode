@@ -16,6 +16,18 @@
 		"_folder_root_open": {
 			"iconPath": "./svg/mo_folder_root_open.svg"
 		},
+        "_folder_nodemon": {
+			"iconPath": "./svg/mo_folder_nodemon.svg"
+		},
+        "_folder_nodemon_open": {
+			"iconPath": "./svg/mo_folder_nodemon_open.svg"
+		},
+        "_folder_husky": {
+			"iconPath": "./svg/mo_folder_husky.svg"
+		},
+        "_folder_husky_open": {
+			"iconPath": "./svg/mo_folder_husky_open.svg"
+		},
 		"_folder_node": {
 			"iconPath": "./svg/mo_folder_node.svg"
 		},
@@ -114,6 +126,12 @@
 		},
 		"_folder_json_open": {
 			"iconPath": "./svg/mo_folder_json_open.svg"
+		},
+        "_folder_svg": {
+			"iconPath": "./svg/mo_folder_svg.svg"
+		},
+		"_folder_svg_open": {
+			"iconPath": "./svg/mo_folder_svg_open.svg"
 		},
 		"_folder_php": {
 			"iconPath": "./svg/mo_folder_php.svg"
@@ -1064,6 +1082,16 @@
         ,"_file_dockercompose":{
             "iconPath": "./svg/mo_file_dockercompose.png"
         }
+        ,"_file_nodemon":{
+            "iconPath": "./svg/mo_file_nodemon.svg"
+        },"_file_nsri":{
+            "iconPath": "./svg/mo_file_nsri.svg"
+        },"_file_nyc":{
+            "iconPath": "./svg/mo_file_nyc.svg"
+        }
+        ,"_file_lintstagedrc":{
+            "iconPath": "./svg/mo_file_lintstagedrc.svg"
+        }
 	},
 	"file": "_file",
 	"folder": "_folder",
@@ -1075,7 +1103,10 @@
         ".app":"_folder_app",
         ".api":"_folder_api",
         "www":"_folder_www",
+        ".husky":"_folder_husky",
+        "node":"_folder_node",
         "http":"_folder_www",
+        "nodemon":"_folder_nodemon",
         "Http":"_folder_www",
         "wwwroot":"_folder_www",
         "public":"_folder_public",
@@ -1151,7 +1182,7 @@
         "screenshot":"_folder_images",
         "screenshots":"_folder_images",
 		"themes":"_folder_themes",
-		"svg":"_folder_images",
+		"svg":"_folder_svg",
 		"icon":"_folder_images",
 		"icons":"_folder_images",
 		"gulp":"_folder_gulp",
@@ -1339,16 +1370,16 @@
         "mongodb":"_folder_mongodb", 
         "mongo":"_folder_mongodb",
         "client":"_folder_client"
-
-           
-
 	},
 	"folderNamesExpanded": {
         "app":"_folder_app_open",
         ".apo":"_folder_app",
         ".api":"_folder_api",
+        "node":"_folder_node_open",
+        ".husky":"_folder_husky_open",
         "www":"_folder_www_open",
         "http":"_folder_www_open",
+        "nodemon":"_folder_nodemon_open",
         "Http":"_folder_www_open",
         "wwwroot":"_folder_www_open",
         "public":"_folder_public_open",
@@ -1441,7 +1472,7 @@
 		"_js":"_folder_js_open",
 		"_img":"_folder_images_open",
 		"themes":"_folder_themes_open",
-		"svg":"_folder_images_open",
+		"svg":"_folder_svg_open",
 		"icon":"_folder_images_open",
 		"icons":"_folder_images_open",
 		"gulp":"_folder_gulp_open",
@@ -1614,10 +1645,29 @@
 	},
 	"fileExtensions": {
 		"log":"_file_log",
+        "nsriignore":"_file_nsri",
 		"script":"_file_script",
+        "mocharc.json":"_file_mocha",
+		"lintstagedrc.json":"_file_lintstagedrc",
 		"txt":"_file_plaintext",
+		"text":"_file_plaintext",
+        "lintstagedrc.yaml":"_file_lintstagedrc",
+        "lintstagedrc.yml":"_file_lintstagedrc",
+        "lintstagedrc.mjs":"_file_lintstagedrc",
+        "lintstagedrc.cjs":"_file_lintstagedrc",
+        "nycrc.json":"_file_nyc",
+        "nycrc.yaml":"_file_nyc",
+        "nycrc.yml":"_file_nyc",
+        "nsrirc":"_file_nsri", 
+        "nsrirc.js":"_file_nsri",  
+        "nsrirc.json":"_file_nsri",  
+        "nsrirc.yaml":"_file_nsri",  
+        "nsrirc.yml":"_file_nsri",  
+        "nsrirc.config.js":"_file_nsri", 
 		"map":"_file_map",
 		"vsix":"_file_vsix",
+        "nvmrc":"_file_node",
+        "nycrc":"_file_nyc",
 		"ai": "_file_illustrator",
 		"as": "_file_actionscript",
 		"au3": "_file_autoit",
@@ -1854,7 +1904,7 @@
 		"db3": "_file_database",
 		"styl": "_file_stylus",
 		"stylus": "_file_stylus",
-		"svg": "_file_image",
+		"svg": "_file_svg",
 		"swift": "_file_swift",
 		"test.js": "_file_tests",
 		"test.jsx": "_file_tests",
@@ -2047,11 +2097,23 @@
 	},
 	"fileNames": {
         "artisan":"_file_php",
+        "nsriignore":"_file_nsri",
+        "lint-staged.config.mjs":"_file_lintstagedrc",
+        "lint-staged.config.js":"_file_lintstagedrc",
+        "nyc.config.js":"_file_nyc",
+		"nsri":"_file_nsri",
+        "svg":"_file_svg",
+        "lintstagedrc.json":"_file_lintstagedrc",
+		"nsri.json":"_file_nsri",
 		"composer.json":"_file_composer",
 		"composer.lock":"_file_composer",
+        "mocharc.json":"_file_mocha",
 		"latex-expl3": "_file_tex",
 		"androidmanifest.xml": "_file_android",
 		"bower.json": "_file_bower",
+		"tsconfig.json":"_file_typescript",
+		"tsconfig.prod.json":"_file_typescript",
+        "nodemon.json":"_file_nodemon",
 		"brunch-config.js": "_file_brunch",
 		"brunch-config.ts": "_file_brunch",
 		"brunch-config.coffee": "_file_brunch",
@@ -2096,8 +2158,7 @@
 		"launch.json": "_file_visualstudiocode",
 		"settings.json": "_file_visualstudiocode",
 		"tasks.json": "_file_visualstudiocode",
-		"jsconfig.json": "_file_json",
-		"tsconfig.json": "_file_json",
+		"jsconfig.json": "_file_javascript",
         "webpack.js": "_file_webpack",
         "webpack.mix.js": "_file_webpack",
 		"webpack.ts": "_file_webpack",
@@ -2187,16 +2248,22 @@
 	},
 	"languageIds": {
         "cuda-cpp":"_file_cuda",
+        "nsriignore":"_file_nsri",
         "git": "_file_git",
+        "svg":"_file_svg",
+        "lintstagedrc":"_file_lintstagedrc",
+		"nsri":"_file_nsri",
         "git-commit": "_file_git",
 		"git-rebase": "_file_git",
 		"latex-expl3": "_file_tex",
+        "nodemon":"_file_nodemon",
         "latex":"_file_tex",
         "c": "_file_c",
         "plaintext":"_file_plaintext",
         "go":"_file_go",
 		"julia": "_file_julia",
         "jade":"_file_pug",
+		"tsconfig":"_file_typescript",
         "juliamarkdown":"_file_julia",
         "rust":"_file_rust",
         "xsl":"_file_xsl",
