@@ -46,6 +46,12 @@
 		"_folder_git_open": {
 			"iconPath": "./svg/mo_folder_git_open.svg"
 		},
+        "_folder_expo": {
+			"iconPath": "./svg/mo_folder_expo.svg"
+		},
+		"_folder_expo_open": {
+			"iconPath": "./svg/mo_folder_expo_open.svg"
+		},
 		
 		"_folder_tests": {
 			"iconPath": "./svg/mo_folder_test.svg"
@@ -886,6 +892,12 @@
 		},
 		"_folder_windows_open": {
 			"iconPath": "./svg/mo_folder_windows_open.svg"
+        },
+        "_folder_redux": {
+			"iconPath": "./svg/mo_folder_redux.svg"
+		},
+		"_folder_redux_open": {
+			"iconPath": "./svg/mo_folder_redux_open.svg"
         }
         ,
         "_folder_macos": {
@@ -1110,6 +1122,128 @@
         ,"_file_vueconfig":{
             "iconPath": "./svg/mo_file_vueconfig.svg"
         }
+        ,"_file_buckbuild":{
+            "iconPath": "./svg/mo_file_buckbuild.svg"
+        }
+
+        ,"_file_cocoapods":{
+            "iconPath": "./svg/mo_file_cocoapods.svg"
+        }
+        ,"_file_vitest":{
+            "iconPath": "./svg/mo_file_vitest.svg"
+        }
+        ,"_file_vite":{
+            "iconPath": "./svg/mo_file_vite.svg"
+        }
+        ,"_file_vim":{
+            "iconPath": "./svg/mo_file_vim.svg"
+        }
+        ,"_file_watchmanconfig":{
+            "iconPath": "./svg/mo_file_watchmanconfig.svg"
+        }
+        ,"_file_zeit":{
+            "iconPath": "./svg/mo_file_zeit.svg"
+        }
+        ,"_file_sequilize":{
+            "iconPath": "./svg/mo_file_sequilize.svg"
+        }
+        ,"_file_serverless":{
+            "iconPath": "./svg/mo_file_serverless.svg"
+        }
+        ,"_file_retext":{
+            "iconPath": "./svg/mo_file_retext.svg"
+        },"_file_asciidoc":{
+            "iconPath": "./svg/mo_file_asciidoc.svg"
+        },"_file_asp":{
+            "iconPath": "./svg/mo_file_asp.svg"
+        }
+		,"_file_aspx":{
+            "iconPath": "./svg/mo_file_aspx.svg"
+        }
+		,"_file_ada":{
+            "iconPath": "./svg/mo_file_ada.svg"
+        }
+		,"_file_advpl":{
+            "iconPath": "./svg/mo_file_advpl.svg"
+        }
+        ,"_file_al":{
+            "iconPath": "./svg/mo_file_al.svg"
+        },"_file_al_dal":{
+            "iconPath": "./svg/mo_file_al_dal.svg"
+        }
+        ,"_file_allcontributors":{
+            "iconPath": "./svg/mo_file_allcontributors.svg"
+        }
+        ,"file_affinitydesigner":{
+            "iconPath": "./svg/mo_file_affinitydesigner.svg"
+        }
+        ,"file_affinityphoto":{
+            "iconPath": "./svg/mo_file_affinityphoto.svg"
+        }
+        ,"file_affinitypublisher":{
+            "iconPath": "./svg/mo_file_affinitypublisher.svg"
+        },"file_appscript":{
+            "iconPath": "./svg/mo_file_appscript.svg"
+        },"file_fitbit":{
+            "iconPath": "./svg/mo_file_fitbit.svg"
+        },"_file_ng_component_dart":{
+            "iconPath": "./svg/mo_file_ng_component_dart.svg"
+        },"_file_ng_component_ts":{
+            "iconPath": "./svg/mo_file_ng_component_ts.svg"
+        }
+        ,"_file_ng_component_js":{
+            "iconPath": "./svg/mo_file_ng_component_js.svg"
+        }
+        ,"_file_ng_controller_js":{
+            "iconPath": "./svg/mo_file_ng_controller_js.svg"
+        },"_file_ng_controller_ts":{
+            "iconPath": "./svg/mo_file_ng_controller_ts.svg"
+        }
+        ,"_file_ng_tailwind":{
+            "iconPath": "./svg/mo_file_ng_tailwind.svg"
+        }
+        ,"_file_affectscript":{
+            "iconPath": "./svg/mo_file_affectscript.svg"
+        },"_file_ansible":{
+            "iconPath": "./svg/mo_file_ansible.svg"
+        }
+        ,"_file_antrl":{
+            "iconPath": "./svg/mo_file_antrl.svg"
+        },"_file_anyscript":{
+            "iconPath": "./svg/mo_file_anyscript.svg"
+        }
+        ,"_file_apex":{
+            "iconPath": "./svg/mo_file_apex.svg"
+        },"_file_apib":{
+            "iconPath": "./svg/mo_file_apib.svg"
+        },"_file_api_extractor":{
+            "iconPath": "./svg/mo_file_api_extractor.svg"
+        }
+        ,"_file_apl":{
+            "iconPath": "./svg/mo_file_apl.svg"
+        },"_file_spring_boot_properties":{
+            "iconPath": "./svg/mo_file_spring_boot_properties.png"
+        }
+        ,"_file_spring_boot":{
+            "iconPath": "./svg/mo_file_spring_boot.png"
+        } ,"_file_postcssconfig":{
+            "iconPath": "./svg/mo_file_postcssconfig.svg"
+        },"_file_next":{
+            "iconPath": "./svg/mo_file_next.svg"
+        },"_file_nestjs":{
+            "iconPath": "./svg/mo_file_nestjs.svg"
+        }
+        ,"_file_mongodb":{
+            "iconPath": "./svg/mo_file_mongodb.svg"
+        },"_file_ionic":{
+            "iconPath": "./svg/mo_file_ionic.svg"
+        },"_file_innosetup":{
+            "iconPath": "./svg/mo_file_innosetup.svg"
+        },"_file_husky":{
+            "iconPath": "./svg/mo_file_husky.svg"
+        }
+        
+        
 	},
 	"file": "_file",
 	"folder": "_folder",
@@ -1147,6 +1281,7 @@
         ".tests": "_folder_tests",
         ".test": "_folder_tests",
         "__test__": "_folder_tests",
+        "redux":"_folder_redux",
         "spec": "_folder_tests",
         ".spec": "_folder_tests",
         "specs": "_folder_tests",
@@ -1391,7 +1526,9 @@
         "server":"_folder_server",
         "mongodb":"_folder_mongodb", 
         "mongo":"_folder_mongodb",
-        "client":"_folder_client"
+        "client":"_folder_client",
+        ".expo":"_folder_expo",
+        ".expo-shared":"_folder_expo"
 	},
 	"folderNamesExpanded": {
         "app":"_folder_app_open",
@@ -1417,6 +1554,7 @@
         "outs": "_folder_dist_open",
         "export": "_folder_dist_open",
         "exports": "_folder_dist_open",
+        "redux":"_folder_redux_open",
         "build": "_folder_dist_open",
         ".build": "_folder_dist_open",
         "builds": "_folder_dist_open",
@@ -1665,7 +1803,9 @@
         "server":"_folder_server_open",
         "mongodb":"_folder_mongodb_open", 
         "mongo":"_folder_mongodb_open",
-        "client":"_folder_client_open"
+        "client":"_folder_client_open",
+        ".expo":"_folder_expo_open",
+        ".expo-shared":"_folder_expo_open"
 	},
 	"fileExtensions": {
 		"log":"_file_log",
@@ -1676,15 +1816,37 @@
         "test.ts":"_file_testts",
         "test.tsx":"_file_testts",
         "test.mts":"_file_testts",
-
-
+        "mocha.opts":"_file_mocha",
+        "buckconfig":"_file_buckbuild",
+        "sequelizerc":"_file_sequelize",
+        "huskyrc":"_file_husky", 
+        "husky.config.js":"_file_husky",
+        "package.pins":"file_swift",
         "test.js": "_file_testjs",
 		"test.jsx": "_file_testjs",
         "test.mjs":"_file_testjs",
+        "dal":"_file_al_dal",
+        "afdesign":"mo_file_affinitydesigner", 
+        "affinitydesigner":"mo_file_affinitydesigner",
+        "afphoto":"mo_file_affinityphoto",
+        "affinityphoto":"mo_file_affinityphoto",
+        "afpub":"mo_file_affinitypublisher", 
+        "affinitypublisher":"mo_file_affinitypublisher",
+        "g":"mo_file_appscript",
+        "fba":"mo_file_fitbit",
+        "ionic.project":"mo_file_ionic", 
+        "ionic.config.json":"mo_file_ionic",
 
         "spec.ts": "_file_testts",
         "spec.tsx": "_file_testts",
         "spec.mts": "_file_testts",
+        "all-contributorsrc":"_file_allcontributors",
+
+        "jade-lintrc":"_file_pug",
+        "pug-lintrc":"_file_pug",
+        "jade-lint.json":"_file_pug",
+        "pug-lintrc.js":"_file_pug",
+        "pug-lintrc.json":"_file_pug",
 
         "spec.js": "_file_testjs",
         "spec.jsx": "_file_testjs",
@@ -1695,6 +1857,9 @@
         "unit.js": "_file_testjs",
 		"unit.jsx": "_file_testjs",
         "unit.mjs":"_file_testjs",
+        "retextignore":"_file_retext",
+		"aspx":"_file_aspx", 
+		"ascx":"_file_aspx",
 
         "e2e-test.ts":"_file_testts",
         "e2e-test.tsx":"_file_testts",
@@ -1703,7 +1868,12 @@
         "e2e-spec.ts":"_file_testts",
         "e2e-spec.tsx":"_file_testts",
         "e2e-spec.mts":"_file_testts",
-
+        "component.dart":"_file_ng_component_dart",
+        "component.ts":"_file_ng_component_ts",
+        "component.js":"_file_ng_component_js",
+        "controller.js":"_file_ng_controller_js",
+        "controller.ts":"_file_ng_controller_ts",
+        "ng-tailwind.js":"_file_ng_tailwind",
 		"script":"_file_script",
         "mocharc.json":"_file_mocha",
 		"txt":"_file_plaintext",
@@ -1722,12 +1892,14 @@
         "nycrc.json":"_file_nyc",
         "nycrc.yaml":"_file_nyc",
         "nycrc.yml":"_file_nyc",
+
         "nsrirc":"_file_nsri", 
         "nsrirc.js":"_file_nsri",  
         "nsrirc.json":"_file_nsri",  
         "nsrirc.yaml":"_file_nsri",  
         "nsrirc.yml":"_file_nsri",  
         "nsrirc.config.js":"_file_nsri",
+
 		"angular-cli.json":"_file_angular",
         "angular.json":"_file_angular", 
 		"map":"_file_map",
@@ -1860,10 +2032,11 @@
 		"slx": "_file_matlab",
 		"slddc": "_file_matlab",
 		"smv": "_file_matlab",
-		"tikz": "_file_matlab",
+		"tikz": "_file_tex",
 		"xvc": "_file_matlab",
 		"mst": "_file_mustache",
 		"nconf": "_file_nginx",
+        "nginx.conf":"_file_nginx",
 		"webmanifest": "_file_node",
 		"nuspec": "_file_nuget",
 		"nupkg": "_file_nuget",
@@ -1871,6 +2044,9 @@
 		"nunjs": "_file_nunjucks",
 		"nj": "_file_nunjucks",
 		"njhtml": "_file_nunjucks",
+        "next.config.js": "_file_next", 
+        "next.config.cjs": "_file_next", 
+        "next.config.mjs": "_file_next",
 		"njk": "_file_nunjucks",
 		"npmignore": "_file_npm",
 		"ml": "_file_ocaml",
@@ -1881,7 +2057,6 @@
 		"merlin": "_file_ocaml",
 		"pdf": "_file_pdf",
 		"postcss": "_file_postcss",
-		"postcssrc": "_file_postcss",
 		"pcss": "_file_postcss",
 		"perl": "_file_perl",
 		"pl": "_file_perl",
@@ -2032,9 +2207,14 @@
 		"potx": "_file_powerpoint",
 		"pps": "_file_powerpoint",
 		"ppsm": "_file_powerpoint",
-		"doc": "_file_word",
-		"docx": "_file_word",
 		"rtf": "_file_word",
+        "doc": "_file_word", 
+        "docx": "_file_word", 
+        "docm": "_file_word", 
+        "dot": "_file_word", 
+        "dotx": "_file_word", 
+        "dotm": "_file_word", 
+        "wll": "_file_word",
 		"xls": "_file_excel",
 		"xlsx": "_file_excel",
 		"csv": "_file_excel",
@@ -2098,7 +2278,6 @@
 		"stylelintrc": "_file_stylelint",
 		"stylelintignore": "_file_stylelint",
 		"htmlhintrc": "_file_settings",
-		"prisma": "_file_prisma",
 		"toml": "_file_toml",
 		"story.js": "_file_storybook",
 		"story.jsx": "_file_storybook",
@@ -2233,30 +2412,67 @@
         "xz":"_file_zip",
         "bz2":"_file_zip",
         "zipx":"_file_zip",
-        "br":"_file_zip"
+        "br":"_file_zip",
+        "babelignore":"_file_babel",
+        "vimrc":"_file_vim",
+        "gvimrc":"_file_vim",
+        "watchmanconfig":"_file_watchmanconfig",
+        "now.json":"_file_zeit", 
+        "nowignore":"_file_zeit", 
+        "vercel.json":"_file_zeit", 
+        "vercelignore":"_file_zeit",
+        "retextrc":"_file_retext",
+        "retextrc.cjs":"_file_retext",
+        "retextrc.js":"_file_retext",
+        "retextrc.json":"_file_retext",
+        "retextrc.mjs":"_file_retext",
+        "retextrc.yml":"_file_retext",
+        "retextrc.yaml":"_file_retext",
+        "api-extractor.json":"_file_api_extractor", 
+        "api-extractor-base.json":"_file_api_extractor",
+        "postcssrc":"_file_postcssconfig",
+        "postcssrc.json":"_file_postcssconfig",
+        "postcssrc.yaml":"_file_postcssconfig",
+        "postcssrc.yml":"_file_postcssconfig",
+        "postcssrc.ts":"_file_postcssconfig",
+        "postcssrc.js":"_file_postcssconfig",
+        "postcssrc.cjs":"_file_postcssconfig",
+        "postcss.config.ts":"_file_postcssconfig",
+        "postcss.config.js":"_file_postcssconfig",
+        "postcss.config.cjs":"_file_postcssconfig",
+        "node-version":"_file_node",
+        "nest-cli.json":"_file_nestjs",
+        "nestconfig.json":"_file_nestjs"
         
 	},
 	"fileNames": {
         "artisan":"_file_php",
-        "nsriignore":"_file_nsri",
         "lint-staged.config.mjs":"_file_lintstagedrc",
         "lint-staged.config.js":"_file_lintstagedrc",
         "nyc.config.js":"_file_nyc",
 		"nsri":"_file_nsri",
         "svg":"_file_svg",
+        "mongo":"_file_mongodb",
 		"angular-cli.json":"_file_angular",
         "angular.json":"_file_angular",
         "lintstagedrc.json":"_file_lintstagedrc",
 		"nsri.json":"_file_nsri",
 		"composer.json":"_file_composer",
 		"composer.lock":"_file_composer",
-        "mocharc.json":"_file_mocha",
+        ".mocharc.json":"_file_mocha",
+        ".mocharc.js":"_file_mocha",
+        ".mocharc.jsonc":"_file_mocha",
+        ".mocharc.yaml":"_file_mocha",
+        ".mocharc.yml":"_file_mocha",
 		"latex-expl3": "_file_tex",
 		"androidmanifest.xml": "_file_android",
 		"bower.json": "_file_bower",
 		"tsconfig.json":"_file_tsconfig",
 		"tsconfig.prod.json":"_file_tsconfig",
         "tsconfig.nostrictnull.json":"_file_tsconfig",
+        "next.config.js": "_file_next", 
+        "next.config.cjs": "_file_next", 
+        "next.config.mjs": "_file_next",
         "nodemon.json":"_file_nodemon",
 		"brunch-config.js": "_file_brunch",
 		"brunch-config.ts": "_file_brunch",
@@ -2284,6 +2500,17 @@
 		"licence": "_file_key",
 		"enc": "_file_key",
 		"lic": "_file_key",
+        ".huskyrc":"_file_husky",
+        ".huskyrc.js":"_file_husky",
+        ".huskyrc.json":"_file_husky",
+        ".huskyrc.yaml":"_file_husky",
+        ".huskyrc.yml":"_file_husky",
+
+        "nest-cli.json":"_file_nestjs",
+        "nestconfig.json":"_file_nestjs",
+        ".sequelizerc":"_file_sequelize",
+        ".sequelizerc.json":"_file_sequelize",
+        ".sequelizerc.js":"_file_sequelize",
 
 		"license.md": "_file_key",
         "licence.md": "_file_key",
@@ -2298,6 +2525,10 @@
         "copying.lesser.txt": "_file_key",
         "license-mit.txt": "_file_key",
         "license-apache.txt": "_file_key",
+        "serverless.yml":"_file_serverless",
+        "serverless.json":"_file_serverless",
+        "serverless.js":"_file_serverless",
+        "serverless.ts":"_file_serverless",
 
 		"mocha.opts": "_file_mocha",
 		"moleculer.config.js": "_file_moleculer",
@@ -2490,31 +2721,45 @@
         ".yarnignore": "_file_yarn",
 	
         ".babelrc": "_file_babel",
+        "babelrc.js": "_file_babel",
+        "babelrc.cjs": "_file_babel",
+        "babelrc.mjs": "_file_babel",
+        "babelrc.json": "_file_babel",
 
-		"eslintrc.js": "_file_eslint",
-        "eslintignore.js": "_file_eslint",
-        "eslintcache.js": "_file_eslint",
+        "babel.config": "_file_babel",
+        "babel.config.js": "_file_babel",
+        "babel.config.cjs": "_file_babel",
+        "babel.config.mjs": "_file_babel",
+        "babel.config.json": "_file_babel",
+
+        ".eslintrc": "_file_eslint",
+        ".eslintignore": "_file_eslint",
+        ".eslintcache": "_file_eslint",
+		".eslintrc.js": "_file_eslint",
+        ".eslintignore.js": "_file_eslint",
+        ".eslintcache.js": "_file_eslint",
         "eslint.config.js": "_file_eslint",
 		"eslintrc.mjs": "_file_eslint",
-        "eslintignore.mjs": "_file_eslint",
-        "eslintcache.mjs": "_file_eslint",
+        ".eslintignore.mjs": "_file_eslint",
+        ".eslintcache.mjs": "_file_eslint",
         "eslint.config.mjs": "_file_eslint",
-		"eslintrc.cjs": "_file_eslint",
-        "eslintignore.cjs": "_file_eslint",
-        "eslintcache.cjs": "_file_eslint",
+		".eslintrc.cjs": "_file_eslint",
+        ".eslintignore.cjs": "_file_eslint",
+        ".eslintcache.cjs": "_file_eslint",
         "eslint.config.cjs": "_file_eslint",
-		"eslintrc.json": "_file_eslint",
-        "eslintignore.json": "_file_eslint",
-        "eslintcache.json": "_file_eslint",
+		".eslintrc.json": "_file_eslint",
+        ".eslintignore.json": "_file_eslint",
+        ".eslintcache.json": "_file_eslint",
         "eslint.config.json": "_file_eslint",
-		"eslintrc.yaml": "_file_eslint",
-        "eslintignore.yaml": "_file_eslint",
-        "eslintcache.yaml": "_file_eslint",
+		".eslintrc.yaml": "_file_eslint",
+        ".eslintignore.yaml": "_file_eslint",
+        ".eslintcache.yaml": "_file_eslint",
         "eslint.config.yaml": "_file_eslint",
-		"eslintrc.yml": "_file_eslint",
-        "eslintignore.yml": "_file_eslint",
-        "eslintcache.yml": "_file_eslint",
+		".eslintrc.yml": "_file_eslint",
+        ".eslintignore.yml": "_file_eslint",
+        ".eslintcache.yml": "_file_eslint",
         "eslint.config.yml": "_file_eslint",
+
 
 		"app.json": "_file_expo",
         "app.config.js": "_file_expo",
@@ -2523,18 +2768,47 @@
 
 		".gitlab-ci.yaml": "_file_gitlab",
 		".gitlab-ci.yml": "_file_gitlab",
+
+        "rollup.config": "_file_rollup",
 		"rollup.config.js": "_file_rollup",
 		"rollup.config.ts": "_file_rollup",
 		"rollup.config.coffee": "_file_rollup",
-		"postcss.config.js": "_file_postcss",
-		"postcss.config.json": "_file_postcss",
-		"prettierrc.js": "_file_prettier",
-		"prettierrc.json": "_file_prettier",
-		"prettierrc.yml": "_file_prettier",
-		"prettierrc.yaml": "_file_prettier",
-		"prettier.config.js": "_file_prettier",
-		"prettier.config.ts": "_file_prettier",
-		"prettier.config.coffee": "_file_prettier",
+        "rollup.config.cjs": "_file_rollup",
+        "rollup.config.mjs": "_file_rollup",
+
+        "rollup.config.common": "_file_rollup",
+		"rollup.config.common.js": "_file_rollup",
+		"rollup.config.common.ts": "_file_rollup",
+		"rollup.config.common.coffee": "_file_rollup",
+        "rollup.config.common.cjs": "_file_rollup",
+        "rollup.config.common.mjs": "_file_rollup",
+
+        "rollup.config.dev": "_file_rollup",
+		"rollup.config.dev.js": "_file_rollup",
+		"rollup.config.dev.ts": "_file_rollup",
+		"rollup.config.dev.coffee": "_file_rollup",
+        "rollup.config.dev.cjs": "_file_rollup",
+        "rollup.config.dev.mjs": "_file_rollup",
+
+        "rollup.config.prod": "_file_rollup",
+		"rollup.config.prod.js": "_file_rollup",
+		"rollup.config.prod.ts": "_file_rollup",
+		"rollup.config.prod.coffee": "_file_rollup",
+        "rollup.config.prod.cjs": "_file_rollup",
+        "rollup.config.prod.mjs": "_file_rollup",
+
+		".prettierrc.js": "_file_prettier",
+		".prettierrc.json": "_file_prettier",
+		".prettierrc.yml": "_file_prettier",
+		".prettierrc.yaml": "_file_prettier",
+        ".prettierrc.cjs": "_file_prettier",
+		".prettierrc.json5": "_file_prettier",
+		".prettierrc.toml": "_file_prettier",
+		".prettier.config.js": "_file_prettier",
+        ".prettier.config.cjs": "_file_prettier",
+		".prettier.config.ts": "_file_prettier",
+		".prettier.config.coffee": "_file_prettier",
+
 		"tslint.js": "_file_tslint",
 		"tslint.ts": "_file_tslint",
 		"tslint.json": "_file_tslint",
@@ -2599,7 +2873,72 @@
         ".vuerc":"_file_vueconfig",
         "vue.config.js":"_file_vueconfig",
         "vue.config.cjs":"_file_vueconfig",
-        "vue.config.mjs":"_file_vueconfig"
+        "vue.config.mjs":"_file_vueconfig",
+        "tailwindcss":"_file_tailwindcss",
+        "tailwind":"_file_tailwindcss",
+        "tailwind.js":"_file_tailwindcss",
+        "tailwind.cjs":"_file_tailwindcss",
+        "tailwind.coffee":"_file_tailwindcss",
+        "tailwind.ts":"_file_tailwindcss",
+        "tailwind.json":"_file_tailwindcss",
+        "tailwind.config":"_file_tailwindcss",
+        "tailwind.config.js":"_file_tailwindcss",
+        "tailwind.config.cjs":"_file_tailwindcss",
+        "tailwind.config.coffee":"_file_tailwindcss",
+        "tailwind.config.ts":"_file_tailwindcss",
+        "tailwind.config.json":"_file_tailwindcss",
+
+        ".tailwind":"_file_tailwindcss",
+        ".tailwind.js":"_file_tailwindcss",
+        ".tailwind.cjs":"_file_tailwindcss",
+        ".tailwind.coffee":"_file_tailwindcss",
+        ".tailwind.ts":"_file_tailwindcss",
+        ".tailwind.json":"_file_tailwindcss",
+        ".tailwindrc":"_file_tailwindcss",
+        ".tailwindrc.js":"_file_tailwindcss",
+        ".tailwindrc.cjs":"_file_tailwindcss",
+        ".tailwindrc.coffee":"_file_tailwindcss",
+        ".tailwindrc.ts":"_file_tailwindcss",
+        ".tailwindrc.json":"_file_tailwindcss",
+        "Podfile":"_file_cocoapods",
+        "Podfile.lock":"_file_cocoapods",
+        "Podfile.properties.json":"_file_cocoapods",
+        "vitest.config":"_file_vitest",
+        "vitest.config.js":"_file_vitest",
+        "vitest.config.mjs":"_file_vitest",
+        "vitest.config.ts":"_file_vitest",
+        "vitest.config.cjs":"_file_vitest",
+        "vitest.config.mts":"_file_vitest",
+        "vitest.config.cts":"_file_vitest",
+        
+		
+        "vite.js":"_file_vite",
+        "vite.mjs":"_file_vite",
+        "vite.ts":"_file_vite",
+        "vite.cjs":"_file_vite",
+        "vite.mts":"_file_vite",
+        "vite.cts":"_file_vite",
+		"vite.config":"_file_vite",
+		"vite.config.js":"_file_vite",
+        "vite.config.mjs":"_file_vite",
+        "vite.config.ts":"_file_vite",
+        "vite.config.cjs":"_file_vite",
+        "vite.config.mts":"_file_vite",
+        "vite.config.cts":"_file_vite",
+		
+        ".postcssrc.json":"_file_postcssconfig",
+        ".postcssrc.yaml":"_file_postcssconfig",
+        ".postcssrc.yml":"_file_postcssconfig",
+        ".postcssrc.ts":"_file_postcssconfig",
+        ".postcssrc.js":"_file_postcssconfig",
+        ".postcssrc.cjs":"_file_postcssconfig",
+        "postcss.config.ts":"_file_postcssconfig",
+        "postcss.config.js":"_file_postcssconfig",
+        "postcss.config.cjs":"_file_postcssconfig",
+        ".nsrirc.js":"_file_nsri",
+        ".nsrirc.json":"_file_nsri",
+        ".nsrirc.yaml":"_file_nsri",
+        ".nsrirc.yml":"_file_nsri"
 	},
 	"languageIds": {
         "cuda-cpp":"_file_cuda",
@@ -2639,6 +2978,7 @@
 		"scala": "_file_scala",
 		"handlebars": "_file_handlebars",
 		"perl": "_file_perl",
+		"prisma": "_file_prisma",
         "phpx":"_file_php",
 		"haxe": "_file_haxe",
         "properties":"_file_settings",
@@ -2667,6 +3007,8 @@
 		"less": "_file_less",
         "css": "_file_css",
         "apacheconf":"_file_apache",
+        "apache":"_file_apache",
+        "apex":"_file_apex",
 		"ng-template": "_file_angular",
 		"autoit": "_file_autoit",
         "shellscript":"_file_shell",
@@ -2711,7 +3053,24 @@
         "tex":"_file_tex",
         "tailwindcss":"_file_tailwindcss",
         "code-text-binary":"_file_binary",
-        "dockercompose":"_file_dockercompose"
+        "dockercompose":"_file_dockercompose",
+        "asciidoc":"_file_asciidoc",
+		"asp":"_file_asp",
+		"actionscript":"_file_actionscript",
+		"ada":"_file_ada",
+		"advpl":"_file_advpl",
+        "al":"_file_al",
+        "affectscript":"_file_affectscript",
+        "ansible":"_file_ansible",
+        "antrl":"_file_antrl",
+        "anyscript":"_file_anyscript",
+        "apib":"_file_apib",
+        "applescript":"_file_applescript",
+        "apl":"_file_apl",
+        "spring-boot-properties":"_file_spring_boot",
+        "spring-boot-properties-yaml":"_file_spring_boot",
+        "spring-factories":"_file_spring_boot",
+        "innosetup":"_file_innosetup"
 	}
 
 }
