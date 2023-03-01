@@ -1,5 +1,9 @@
 # Changelog
 
+## 🔖 0.1.5  -  01-03-2023
+
+- Acréscimo de vários ícones para ficheiros e pastas
+
 ## 🔖 0.1.4  -  25-02-2023
 
 - Acréscimo de vários ícones para ficheiros e pastas
