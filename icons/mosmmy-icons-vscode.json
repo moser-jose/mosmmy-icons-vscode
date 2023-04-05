@@ -78,6 +78,75 @@
 			"iconPath": "./svg/mo_folder_cmake_open.svg"
 		},
 		
+		"_folder_generators": {
+			"iconPath": "./svg/mo_folder_generators.svg"
+		},
+		"_folder_generators_open": {
+			"iconPath": "./svg/mo_folder_generators_open.svg"
+		},
+		
+		"_folder_scheme": {
+			"iconPath": "./svg/mo_folder_scheme.svg"
+		},
+		"_folder_scheme_open": {
+			"iconPath": "./svg/mo_folder_scheme_open.svg"
+		},
+		
+		"_folder_user": {
+			"iconPath": "./svg/mo_folder_user.svg"
+		},
+		"_folder_user_open": {
+			"iconPath": "./svg/mo_folder_user_open.svg"
+		},
+		
+		"_folder_workers": {
+			"iconPath": "./svg/mo_folder_workers.svg"
+		},
+		"_folder_workers_open": {
+			"iconPath": "./svg/mo_folder_workers_open.svg"
+		},
+		
+		"_folder_shared": {
+			"iconPath": "./svg/mo_folder_shared.svg"
+		},
+		"_folder_shared_open": {
+			"iconPath": "./svg/mo_folder_shared_open.svg"
+		},
+		"_folder_bootstrap": {
+			"iconPath": "./svg/mo_folder_bootstrap.svg"
+		},
+		"_folder_bootstrap_open": {
+			"iconPath": "./svg/mo_folder_bootstrap_open.svg"
+		},
+		
+		"_folder_auth": {
+			"iconPath": "./svg/mo_folder_auth.svg"
+		},
+		"_folder_auth_open": {
+			"iconPath": "./svg/mo_folder_auth_open.svg"
+		},
+		
+		"_folder_decorators": {
+			"iconPath": "./svg/mo_folder_decorators.svg"
+		},
+		"_folder_decorators_open": {
+			"iconPath": "./svg/mo_folder_decorators_open.svg"
+		},
+		
+		"_folder_error": {
+			"iconPath": "./svg/mo_folder_error.svg"
+		},
+		"_folder_error_open": {
+			"iconPath": "./svg/mo_folder_error_open.svg"
+		},
+		
+		"_folder_features": {
+			"iconPath": "./svg/mo_folder_features.svg"
+		},
+		"_folder_features_open": {
+			"iconPath": "./svg/mo_folder_features_open.svg"
+		},
+		
 		"_folder_android": {
 			"iconPath": "./svg/mo_folder_android.svg"
 		},
@@ -1242,8 +1311,57 @@
         },"_file_husky":{
             "iconPath": "./svg/mo_file_husky.svg"
         }
+        ,"_file_assembly":{
+            "iconPath": "./svg/mo_file_assembly.svg"
+        },"_file_astro":{
+            "iconPath": "./svg/mo_file_astro.svg"
+        },"_file_astroconfig":{
+            "iconPath": "./svg/mo_file_astroconfig.svg"
+        }
+        ,"_file_ats":{
+            "iconPath": "./svg/mo_file_ats.svg"
+        },"_file_appsemble":{
+            "iconPath": "./svg/mo_file_appsemble.svg"
+        },"_file_appveyor":{
+            "iconPath": "./svg/mo_file_appveyor.svg"
+        },"_file_aurelia":{
+            "iconPath": "./svg/mo_file_aurelia.svg"
+        }
+        ,"_file_autohotkey":{
+            "iconPath": "./svg/mo_file_autohotkey.svg"
+        },"_file_avif":{
+            "iconPath": "./svg/mo_file_avif.svg"
+        },"_file_avro":{
+            "iconPath": "./svg/mo_file_avro.svg"
+        },"_file_awk":{
+            "iconPath": "./svg/mo_file_awk.svg"
+        }
+        ,"_file_azure":{
+            "iconPath": "./svg/mo_file_azure.svg"
+        },"_file_azurepipelines":{
+            "iconPath": "./svg/mo_file_azurepipelines.svg"
+        },"_file_ballerina":{
+            "iconPath": "./svg/mo_file_ballerina.svg"
+        },"_file_ceylon":{
+            "iconPath": "./svg/mo_file_ceylon.svg"
+        },"_file_doppler":{
+            "iconPath": "./svg/mo_file_doppler.svg"
+        },"_file_turbo":{
+            "iconPath": "./svg/mo_file_turbo.svg"
+        },"_file_zig":{
+            "iconPath": "./svg/mo_file_zig.svg"
+        }
+        ,"_file_yeoman":{
+            "iconPath": "./svg/mo_file_yeoman.svg"
+        }
+        ,"_file_yandex":{
+            "iconPath": "./svg/mo_file_yandex.svg"
+        }
+        ,"_file_yang":{
+            "iconPath": "./svg/mo_file_yang.svg"
+        }
         
-        
+            
 	},
 	"file": "_file",
 	"folder": "_folder",
@@ -1257,6 +1375,22 @@
         "www":"_folder_www",
         ".husky":"_folder_husky",
         "node":"_folder_node",
+        "user":"_folder_user",
+        "users":"_folder_user",
+        "usuarios":"_folder_user",
+        "utilizadores":"_folder_user",
+        "auth":"_folder_auth",
+        "bootstrap":"_folder_bootstrap",
+        "decorators":"_folder_decorators",
+        "error":"_folder_error",
+        "errors":"_folder_error",
+        "feature":"_folder_feature",
+        "generators":"_folder_generators",
+        "schemes":"_folder_scheme",
+        "scheme":"_folder_scheme",
+        "shared":"_folder_shared",
+        "share":"_folder_shared",
+        "workers":"_folder_workers",
         "http":"_folder_www",
         "nodemon":"_folder_nodemon",
         "Http":"_folder_www",
@@ -1538,6 +1672,22 @@
         ".husky":"_folder_husky_open",
         "www":"_folder_www_open",
         "http":"_folder_www_open",
+        "user":"_folder_user_open",
+        "users":"_folder_user_open",
+        "usuarios":"_folder_user_open",
+        "utilizadores":"_folder_user_open",
+        "workers":"_folder_workers_open",
+        "scheme":"_folder_scheme_open",
+        "schemes":"_folder_scheme_open",
+        "generators":"_folder_generators_open",
+        "features":"_folder_features_open",
+        "errors":"_folder_error_open",
+        "error":"_folder_error_open",
+        "auth":"_folder_auth_open",
+        "bootstrap":"_folder_bootstrap_open",
+        "decorators":"_folder_decorators_open",
+        "shared":"_folder_shared_open",
+        "share":"_folder_shared_open",
         "nodemon":"_folder_nodemon_open",
         "Http":"_folder_www_open",
         "wwwroot":"_folder_www_open",
@@ -1809,16 +1959,32 @@
 	},
 	"fileExtensions": {
 		"log":"_file_log",
+        "yaspellerrc":"_file_yandex",
+        "yaspeller.json":"_file_yandex",
         "nsriignore":"_file_nsri",
         "d.ts":"_file_typescriptdef",
         "d.cts":"_file_typescriptdef",
         "d.mts":"_file_typescriptdef",
+        "astro":"_file_astro",
         "test.ts":"_file_testts",
+        "yo-rc.json":"_file_yeoman",
+        "azure-pipelines.yml":"_file_azurepipelines",
+        "vsts-ci.yml":"_file_azurepipelines",
+        "doppler.yaml":"_file_doppler",
+        "turbo.json":"_file_turbo",
+        "doppler-template.yaml":"_file_doppler",
+        "awk":"_file_awk",
+        "aurelia.json":"_file_aurelia",
         "test.tsx":"_file_testts",
         "test.mts":"_file_testts",
+		"bower.json": "_file_bower",
         "mocha.opts":"_file_mocha",
         "buckconfig":"_file_buckbuild",
         "sequelizerc":"_file_sequelize",
+        "appsemblerc.yaml":"_file_appsemble",
+        "app-definition.yaml":"_file_appsemble",
+        "appveyor.yml":"_file_appveyor",
+        "avif":"_file_avif",
         "huskyrc":"_file_husky", 
         "husky.config.js":"_file_husky",
         "package.pins":"file_swift",
@@ -2223,6 +2389,7 @@
 		"gitlab-ci.yaml": "_file_gitlab",
 		"gitlab-ci.yml": "_file_gitlab",
 		"ino": "_file_arduino",
+        "pde": "_file_arduino",
 		"glsl": "_file_opengl",
 		"vs": "_file_opengl",
 		"frag": "_file_opengl",
@@ -2458,7 +2625,12 @@
         "lintstagedrc.json":"_file_lintstagedrc",
 		"nsri.json":"_file_nsri",
 		"composer.json":"_file_composer",
-		"composer.lock":"_file_composer",
+		"astro.config":"_file_astroconfig",
+        "astro.config.js":"_file_astroconfig",
+        "astro.config.cjs":"_file_astroconfig",
+        "astro.config.mjs":"_file_astroconfig",
+        "astro.config.ts":"_file_astroconfig",
+        "composer.lock":"_file_composer",
         ".mocharc.json":"_file_mocha",
         ".mocharc.js":"_file_mocha",
         ".mocharc.jsonc":"_file_mocha",
@@ -2466,7 +2638,6 @@
         ".mocharc.yml":"_file_mocha",
 		"latex-expl3": "_file_tex",
 		"androidmanifest.xml": "_file_android",
-		"bower.json": "_file_bower",
 		"tsconfig.json":"_file_tsconfig",
 		"tsconfig.prod.json":"_file_tsconfig",
         "tsconfig.nostrictnull.json":"_file_tsconfig",
@@ -2944,11 +3115,21 @@
         "cuda-cpp":"_file_cuda",
         "nsriignore":"_file_nsri",
         "git": "_file_git",
+        "zig":"_file_zig",
+        "yang":"_file_yang",
         "svg":"_file_svg",
+        "ceylon":"_file_ceylon",
         "lintstagedrc":"_file_lintstagedrc",
+        "assembly":"_file_assembly",
+        "avro":"_file_avro",
 		"nsri":"_file_nsri",
         "git-commit": "_file_git",
+        "azurepipelines":"_file_azurepipelines",
+        "azcli":"_file_azure",
+        "ballerina":"_file_ballerina",
+        "ats":"_file_ats",
 		"git-rebase": "_file_git",
+        "autohotkey":"_file_autohotkey",
 		"latex-expl3": "_file_tex",
         "nodemon":"_file_nodemon",
         "latex":"_file_tex",
@@ -2967,6 +3148,7 @@
         "ruby":"_file_ruby",
 		"fsharp": "_file_fsharp",
 		"yaml": "_file_yaml",
+        "text-mate-yaml": "_file_yaml",
 		"xml": "_file_xml",
 		"matlab": "_file_matlab",
         "perl6":"_file_perl_",
