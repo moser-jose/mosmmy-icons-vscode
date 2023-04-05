@@ -1,5 +1,9 @@
 # Changelog
 
+## 🔖 0.1.7  -  05-04-2023
+
+- Correção da falta de ícone quando a pasta está aberta
+
 ## 🔖 0.1.6  -  05-04-2023
 
 - Acréscimo de vários ícones para ficheiros e pastas
