@@ -767,11 +767,29 @@
 		"_folder_dist_open": {
 			"iconPath": "./svg/mo_folder_dist_open.svg"
 		},
+        "_folder_redis": {
+			"iconPath": "./svg/mo_folder_redis.svg"
+		},
+		"_folder_redis_open": {
+			"iconPath": "./svg/mo_folder_redis_open.svg"
+		},
 		"_folder_helper": {
 			"iconPath": "./svg/mo_folder_helper.svg"
 		},
 		"_folder_helper_open": {
 			"iconPath": "./svg/mo_folder_helper_open.svg"
+		},
+        "_folder_angular": {
+			"iconPath": "./svg/mo_folder_angular.svg"
+		},
+		"_folder_angular_open": {
+			"iconPath": "./svg/mo_folder_angular_open.svg"
+		},
+        "_folder_nginx": {
+			"iconPath": "./svg/mo_folder_nginx.svg"
+		},
+		"_folder_nginx_open": {
+			"iconPath": "./svg/mo_folder_nginx_open.svg"
 		}
 		,
 		"_folder_script": {
@@ -902,6 +920,12 @@
 		},
 		"_folder_controller_open": {
 			"iconPath": "./svg/mo_folder_controller_open.svg"
+        },
+		"_folder_jquery": {
+			"iconPath": "./svg/mo_folder_jquery.svg"
+		},
+		"_folder_jquery_open": {
+			"iconPath": "./svg/mo_folder_jquery_open.svg"
         }
         ,
 		"_folder_mysql": {
@@ -967,6 +991,12 @@
 		},
 		"_folder_redux_open": {
 			"iconPath": "./svg/mo_folder_redux_open.svg"
+        }
+        ,"_folder_endpoint": {
+			"iconPath": "./svg/mo_folder_endpoint.svg"
+		},
+		"_folder_endpoint_open": {
+			"iconPath": "./svg/mo_folder_endpoint_open.svg"
         }
         ,
         "_folder_macos": {
@@ -1048,6 +1078,12 @@
 		},
 		"_folder_cli_open": {
 			"iconPath": "./svg/mo_folder_cli_open.svg"
+        },
+        "_folder_globals": {
+			"iconPath": "./svg/mo_folder_globals.svg"
+		},
+		"_folder_globals_open": {
+			"iconPath": "./svg/mo_folder_globals_open.svg"
         }
         ,
         "_folder_mongodb": {
@@ -1078,6 +1114,31 @@
 			"iconPath": "./svg/mo_folder_component_open.svg"
         }
         ,
+        "_folder_midlewares": {
+			"iconPath": "./svg/mo_folder_midlewares.svg"
+		},
+		"_folder_midlewares_open": {
+			"iconPath": "./svg/mo_folder_midlewares_open.svg"
+        },
+        "_folder_dashboard": {
+			"iconPath": "./svg/mo_folder_dashboard.svg"
+		},
+		"_folder_dashboard_open": {
+			"iconPath": "./svg/mo_folder_dashboard_open.svg"
+        },
+        "_folder_storage": {
+			"iconPath": "./svg/mo_folder_storage.svg"
+		},
+		"_folder_storage_open": {
+			"iconPath": "./svg/mo_folder_storage_open.svg"
+        },
+        "_folder_migrations": {
+			"iconPath": "./svg/mo_folder_migrations.svg"
+		},
+		"_folder_migrations_open": {
+			"iconPath": "./svg/mo_folder_migrations_open.svg"
+        },
+        
         "_folder_route": {
 			"iconPath": "./svg/mo_folder_route.svg"
 		},
@@ -1373,8 +1434,14 @@
         ".app":"_folder_app",
         ".api":"_folder_api",
         "www":"_folder_www",
+        "globals":"_folder_globals",
+        "global":"_folder_globals",
+        "jquery":"_folder_jquery",
         ".husky":"_folder_husky",
         "node":"_folder_node",
+        "nginx":"_folder_nginx",
+        "angular":"_folder_angular",
+        "redis":"_folder_redis",
         "user":"_folder_user",
         "users":"_folder_user",
         "usuarios":"_folder_user",
@@ -1390,6 +1457,7 @@
         "scheme":"_folder_scheme",
         "shared":"_folder_shared",
         "share":"_folder_shared",
+        "shareds":"_folder_shared",
         "workers":"_folder_workers",
         "http":"_folder_www",
         "nodemon":"_folder_nodemon",
@@ -1459,6 +1527,8 @@
         "_page":"_folder_views",
         "_pages":"_folder_views",
 		"php":"_folder_php",
+        "traits":"_folder_php",
+        "Traits":"_folder_php",
 		"js":"_folder_js",
         "img":"_folder_images",
         "_js":"_folder_js",
@@ -1513,6 +1583,7 @@
         "src": "_folder_src",
         "source": "_folder_src",
         "sources": "_folder_src",
+        "resources": "_folder_src",
         "dist": "_folder_dist",
         ".dist": "_folder_dist",
         "dists": "_folder_dist",
@@ -1662,11 +1733,27 @@
         "mongo":"_folder_mongodb",
         "client":"_folder_client",
         ".expo":"_folder_expo",
-        ".expo-shared":"_folder_expo"
+        ".expo-shared":"_folder_expo",
+        "features":"_folder_features",
+        "middlewares":"_folder_midlewares",
+        "middleware":"_folder_midlewares",
+        "Middlewares":"_folder_midlewares",
+        "Middleware":"_folder_midlewares",
+        "dashboard":"_folder_dashboard",
+        "dashboards":"_folder_dashboard",
+        "migrations":"_folder_migrations",
+        "migration":"_folder_migrations",
+        "storage":"_folder_storage",
+        "storages":"_folder_storage",
+        "endpoint":"_folder_endpoint",
+        "endpoints":"_folder_endpoint"
 	},
 	"folderNamesExpanded": {
         "app":"_folder_app_open",
         ".apo":"_folder_app_open",
+        "jquery":"_folder_jquery_open",
+        "globals":"_folder_globals_open",
+        "global":"_folder_globals_open",
         ".api":"_folder_api_open",
         "node":"_folder_node_open",
         ".husky":"_folder_husky_open",
@@ -1683,11 +1770,21 @@
         "features":"_folder_features_open",
         "errors":"_folder_error_open",
         "error":"_folder_error_open",
+        "nginx":"_folder_nginx_open",
+        "endpoint":"_folder_endpoint_open",
+        "endpoints":"_folder_endpoint_open",
+        "angular":"_folder_angular_open",
+        "redis":"_folder_redis_open",
         "auth":"_folder_auth_open",
         "bootstrap":"_folder_bootstrap_open",
         "decorators":"_folder_decorators_open",
         "shared":"_folder_shared_open",
         "share":"_folder_shared_open",
+        "shareds":"_folder_shared_open",
+        "middlewares":"_folder_midlewares_open",
+        "middleware":"_folder_midlewares_open",
+        "Middlewares":"_folder_midlewares_open",
+        "Middleware":"_folder_midlewares_open",
         "nodemon":"_folder_nodemon_open",
         "Http":"_folder_www_open",
         "wwwroot":"_folder_www_open",
@@ -1716,6 +1813,7 @@
         "vscode":"_folder_vscode_open",
         "source": "_folder_src_open",
         "sources": "_folder_src_open",
+        "resources": "_folder_src_open",
 		".bin": "_folder_bin_open",
         "bin": "_folder_bin_open",
         "lib": "_folder_library_open", 
@@ -1762,6 +1860,8 @@
         "video":"_folder_video_open",
 		"html":"_folder_html_open",
 		"php":"_folder_php_open",
+        "traits":"_folder_php_open",
+        "Traits":"_folder_php_open",
         "css":"_folder_css_open",
         "style":"_folder_css_open",
         "styles":"_folder_css_open",
@@ -1880,6 +1980,7 @@
         ".package":"_folder_package_open",
         ".packages":"_folder_package_open",
         "pkg":"_folder_package_open",
+        
         "model":"_folder_model_open",
         "models":"_folder_model_open",
         ".model":"_folder_model_open",
@@ -1955,7 +2056,13 @@
         "mongo":"_folder_mongodb_open",
         "client":"_folder_client_open",
         ".expo":"_folder_expo_open",
-        ".expo-shared":"_folder_expo_open"
+        ".expo-shared":"_folder_expo_open",
+        "dashboard":"_folder_dashboard_open",
+        "dashboards":"_folder_dashboard_open",
+        "migrations":"_folder_migrations_open",
+        "migration":"_folder_migrations_open",
+        "storage":"_folder_storage_open",
+        "storages":"_folder_storage_open"
 	},
 	"fileExtensions": {
 		"log":"_file_log",

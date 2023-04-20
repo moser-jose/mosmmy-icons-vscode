@@ -1,8 +1,9 @@
 # Como contribuir com o projeto
 
-- [Instalando o projeto](#instalando-o-projeto)
-- [Reportando Issues](#reportando-issues)
-- [Submetendo Pull Requests](#submetendo-pull-requests)
+- [Como contribuir com o projeto](#como-contribuir-com-o-projeto)
+  - [Instalando o projeto](#instalando-o-projeto)
+  - [Reportando Issues](#reportando-issues)
+  - [Submetendo Pull Requests](#submetendo-pull-requests)
 
 ## Instalando o projeto
 
