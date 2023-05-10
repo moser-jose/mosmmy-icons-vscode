@@ -37,7 +37,7 @@ Veja o que tem mudado desde então [Aqui](/CHANGELOG.md).
 
 ## Licença
 
-Este projeto é regida pela licença [MIT](/LICENSE.md).
+Este projeto é regido pela licença [MIT](/LICENSE.md).
 
 
 ## Como contribuir

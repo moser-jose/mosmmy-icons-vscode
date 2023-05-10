@@ -232,6 +232,12 @@
 		"_folder_python_open": {
 			"iconPath": "./svg/mo_folder_python_open.svg"
 		},
+        "_folder_email": {
+			"iconPath": "./svg/mo_folder_email.svg"
+		},
+		"_folder_email_open": {
+			"iconPath": "./svg/mo_folder_email_open.svg"
+		},
 		"_folder_webpack": {
 			"iconPath": "./svg/mo_folder_webpack.svg"
 		},
@@ -329,7 +335,7 @@
 			"iconPath": "./svg/mo_file_dustjs.svg"
 		},
 		"_file_ejs": {
-			"iconPath": "./svg/ejmo_file_ejs.svg"
+			"iconPath": "./svg/mo_file_ejs.svg"
 		},
 		"_file_elixir": {
 			"iconPath": "./svg/mo_file_elixir.svg"
@@ -1078,6 +1084,13 @@
 		},
 		"_folder_cli_open": {
 			"iconPath": "./svg/mo_folder_cli_open.svg"
+        }
+        ,
+        "_folder_utilities": {
+			"iconPath": "./svg/mo_folder_utilities.svg"
+		},
+		"_folder_utilities_open": {
+			"iconPath": "./svg/mo_folder_utilities_open.svg"
         },
         "_folder_globals": {
 			"iconPath": "./svg/mo_folder_globals.svg"
@@ -1421,6 +1434,9 @@
         ,"_file_yang":{
             "iconPath": "./svg/mo_file_yang.svg"
         }
+        ,"_file_auth":{
+            "iconPath": "./svg/mo_file_auth.svg"
+        }
         
             
 	},
@@ -1501,6 +1517,13 @@
         ".sound":"_folder_audio",
         "sounds":"_folder_audio",
         ".sounds":"_folder_audio",
+        "email":"_folder_email",
+        "emails":"_folder_email",
+        "_emails":"_folder_email",
+        "_email":"_folder_email",
+        "envelop":"_folder_email",
+        "envelope":"_folder_email",
+        "envelopes":"_folder_email",
 		"videos":"_folder_video",
         ".videos":"_folder_video",
         ".video":"_folder_video",
@@ -1611,7 +1634,7 @@
         ".temp": "_folder_temp",
         "tmp": "_folder_temp",
         ".tmp": "_folder_temp",
-
+        "utilities":"_folder_utilities",
         "idioma":"_folder_locale",
         "lingua":"_folder_locale",
         "lang":"_folder_locale",
@@ -1714,10 +1737,10 @@
         "_route":"_folder_route", 
         "_routes":"_folder_route", 
         "routers":"_folder_route",
-        "tools":"_folder_tools", 
-        ".tools":"_folder_tools", 
-        "util":"_folder_tools", 
-        "utils":"_folder_tools",
+        "tools":"_folder_utilities", 
+        ".tools":"_folder_utilities", 
+        "util":"_folder_utilities", 
+        "utils":"_folder_utilities",
         "service":"_folder_service",
         "services":"_folder_service",
 
@@ -1775,6 +1798,13 @@
         "endpoints":"_folder_endpoint_open",
         "angular":"_folder_angular_open",
         "redis":"_folder_redis_open",
+        "email":"_folder_email_open",
+        "emails":"_folder_email_open",
+        "_emails":"_folder_email_open",
+        "_email":"_folder_email_open",
+        "envelop":"_folder_email_open",
+        "envelope":"_folder_email_open",
+        "envelopes":"_folder_email_open",
         "auth":"_folder_auth_open",
         "bootstrap":"_folder_bootstrap_open",
         "decorators":"_folder_decorators_open",
@@ -2038,10 +2068,11 @@
         "_route":"_folder_route_open", 
         "_routes":"_folder_route_open", 
         "routers":"_folder_route_open",
-        "tools":"_folder_tools_open", 
-        ".tools":"_folder_tools_open", 
-        "util":"_folder_tools_open", 
-        "utils":"_folder_tools_open",
+        "tools":"_folder_utilities_open", 
+        ".tools":"_folder_utilities_open", 
+        "util":"_folder_utilities_open", 
+        "utils":"_folder_utilities_open",
+        "utilities":"_folder_utilities_open",
         "service":"_folder_service_open",
         "services":"_folder_service_open",
         "mariadb":"_folder_mariadb_open",
@@ -3038,7 +3069,8 @@
         ".eslintcache.yml": "_file_eslint",
         "eslint.config.yml": "_file_eslint",
 
-
+        "auth.http":"_file_auth",
+        "auth.https":"_file_auth",
 		"app.json": "_file_expo",
         "app.config.js": "_file_expo",
         "app.config.json": "_file_expo",
