@@ -125,6 +125,12 @@
 		"_folder_auth_open": {
 			"iconPath": "./svg/mo_folder_auth_open.svg"
 		},
+        "_folder_coverage": {
+			"iconPath": "./svg/mo_folder_coverage.svg"
+		},
+		"_folder_coverage_open": {
+			"iconPath": "./svg/mo_folder_coverage_open.svg"
+		},
 		
 		"_folder_decorators": {
 			"iconPath": "./svg/mo_folder_decorators.svg"
@@ -674,7 +680,7 @@
 			"iconPath": "./svg/mo_file_vb.svg"
 		},
 		"_file_rst": {
-			"iconPath": "./svg/rst.png"
+			"iconPath": "./svg/mo_file_rest.svg"
 		},
 		"_file_tslint": {
 			"iconPath": "./svg/mo_file_tslint.svg"
@@ -1079,6 +1085,48 @@
 			"iconPath": "./svg/mo_folder_server_open.svg"
         }
         ,
+        "_folder_main": {
+			"iconPath": "./svg/mo_folder_main.svg"
+		},
+		"_folder_main_open": {
+			"iconPath": "./svg/mo_folder_main_open.svg"
+        }
+        ,
+        "_folder_exception": {
+			"iconPath": "./svg/mo_folder_exception.svg"
+		},
+		"_folder_exception_open": {
+			"iconPath": "./svg/mo_folder_exception_open.svg"
+        }
+        ,
+        "_folder_java": {
+			"iconPath": "./svg/mo_folder_java.svg"
+		},
+		"_folder_java_open": {
+			"iconPath": "./svg/mo_folder_java_open.svg"
+        }
+        ,
+        "_folder_maven": {
+			"iconPath": "./svg/mo_folder_maven.svg"
+		},
+		"_folder_maven_open": {
+			"iconPath": "./svg/mo_folder_maven_open.svg"
+        }
+        ,
+        "_folder_response": {
+			"iconPath": "./svg/mo_folder_response.svg"
+		},
+		"_folder_response_open": {
+			"iconPath": "./svg/mo_folder_response_open.svg"
+        }
+        ,
+        "_folder_static": {
+			"iconPath": "./svg/mo_folder_static.svg"
+		},
+		"_folder_static_open": {
+			"iconPath": "./svg/mo_folder_static_open.svg"
+        }
+        ,
         "_folder_cli": {
 			"iconPath": "./svg/mo_folder_cli.svg"
 		},
@@ -1125,6 +1173,12 @@
 		},
 		"_folder_component_open": {
 			"iconPath": "./svg/mo_folder_component_open.svg"
+        },
+        "_folder_streamlit": {
+			"iconPath": "./svg/mo_folder_streamlit.svg"
+		},
+		"_folder_streamlit_open": {
+			"iconPath": "./svg/mo_folder_streamlit_open.svg"
         }
         ,
         "_folder_midlewares": {
@@ -1221,6 +1275,9 @@
         }
         ,"_file_plaintext":{
             "iconPath": "./svg/mo_file_plaintext.svg"
+        }
+        ,"_file_tox":{
+            "iconPath": "./svg/mo_file_tox.svg"
         }
         ,"_file_perl_":{
             "iconPath": "./svg/mo_file_perl_.svg"
@@ -1436,6 +1493,10 @@
         }
         ,"_file_auth":{
             "iconPath": "./svg/mo_file_auth.svg"
+        },"_file_http":{
+            "iconPath": "./svg/mo_file_http.svg"
+        },"_file_proto":{
+            "iconPath": "./svg/mo_file_proto.png"
         }
         
             
@@ -1450,9 +1511,23 @@
         ".app":"_folder_app",
         ".api":"_folder_api",
         "www":"_folder_www",
+        ".mvn":"_folder_maven",
+        "maven":"_folder_maven",
+        "security":"_folder_midlewares",
+        "segurança":"_folder_midlewares",
+        "main":"_folder_main",
+        ".main":"_folder_main",
+        "java":"_folder_java",
+        ".java":"_folder_java",
+        "exception":"_folder_exception",
+        "exceptions":"_folder_exception",
+        "static":"_folder_static",
+        "response":"_folder_response",
+        "responses":"_folder_response",
         "globals":"_folder_globals",
         "global":"_folder_globals",
         "jquery":"_folder_jquery",
+        "coverage":"_folder_coverage",
         ".husky":"_folder_husky",
         "node":"_folder_node",
         "nginx":"_folder_nginx",
@@ -1476,6 +1551,7 @@
         "shareds":"_folder_shared",
         "workers":"_folder_workers",
         "http":"_folder_www",
+        "https":"_folder_www",
         "nodemon":"_folder_nodemon",
         "Http":"_folder_www",
         "wwwroot":"_folder_www",
@@ -1705,6 +1781,8 @@
         "linux":"_folder_linux",
         "ios":"_folder_ios",
         "debian":"_folder_debian",
+        ".streamlit":"_folder_streamlit",
+        "streamlit":"_folder_streamlit",
 
         "config":"_folder_config",
         ".config":"_folder_config",
@@ -1777,11 +1855,26 @@
         "jquery":"_folder_jquery_open",
         "globals":"_folder_globals_open",
         "global":"_folder_globals_open",
+        "coverage":"_folder_coverage_open",
         ".api":"_folder_api_open",
         "node":"_folder_node_open",
         ".husky":"_folder_husky_open",
+        "security":"_folder_midlewares_open",
+        "segurança":"_folder_midlewares_open",
         "www":"_folder_www_open",
+        ".mvn":"_folder_maven_open",
+        "maven":"_folder_maven_open",
+        "static":"_folder_static_open",
+        "response":"_folder_response_open",
+        "responses":"_folder_response_open",
+        "main":"_folder_main_open",
+        ".main":"_folder_main_open",
+        "exception":"_folder_exception_open",
+        "exceptions":"_folder_exception_open",
+        "java":"_folder_java_open",
+        ".java":"_folder_java_open",
         "http":"_folder_www_open",
+        "https":"_folder_www_open",
         "user":"_folder_user_open",
         "users":"_folder_user_open",
         "usuarios":"_folder_user_open",
@@ -1817,6 +1910,8 @@
         "Middleware":"_folder_midlewares_open",
         "nodemon":"_folder_nodemon_open",
         "Http":"_folder_www_open",
+        ".streamlit":"_folder_streamlit_open",
+        "streamlit":"_folder_streamlit_open",
         "wwwroot":"_folder_www_open",
         "public":"_folder_public_open",
         ".public":"_folder_public_open",
@@ -2100,6 +2195,7 @@
         "yaspellerrc":"_file_yandex",
         "yaspeller.json":"_file_yandex",
         "nsriignore":"_file_nsri",
+        "auth":"_file_auth",
         "d.ts":"_file_typescriptdef",
         "d.cts":"_file_typescriptdef",
         "d.mts":"_file_typescriptdef",
@@ -2123,6 +2219,7 @@
         "app-definition.yaml":"_file_appsemble",
         "appveyor.yml":"_file_appveyor",
         "avif":"_file_avif",
+        "http":"_file_http",
         "huskyrc":"_file_husky", 
         "husky.config.js":"_file_husky",
         "package.pins":"file_swift",
@@ -2130,6 +2227,7 @@
 		"test.jsx": "_file_testjs",
         "test.mjs":"_file_testjs",
         "dal":"_file_al_dal",
+        "proto":"_file_proto",
         "afdesign":"mo_file_affinitydesigner", 
         "affinitydesigner":"mo_file_affinitydesigner",
         "afphoto":"mo_file_affinityphoto",
@@ -2537,7 +2635,7 @@
 		"rproj": "_file_rstudio",
 		"sol": "_file_solidity",
 		"lua": "_file_lua",
-		"http": "_file_server",
+		"https": "_file_http",
 		"json5": "_file_json5",
 		"gql": "_file_graphql",
 		"graphql": "_file_graphql",
@@ -2769,11 +2867,13 @@
         "astro.config.mjs":"_file_astroconfig",
         "astro.config.ts":"_file_astroconfig",
         "composer.lock":"_file_composer",
+        "requirements.txt":"_file_python",
         ".mocharc.json":"_file_mocha",
         ".mocharc.js":"_file_mocha",
         ".mocharc.jsonc":"_file_mocha",
         ".mocharc.yaml":"_file_mocha",
         ".mocharc.yml":"_file_mocha",
+        "tox.ini":"_file_tox",
 		"latex-expl3": "_file_tex",
 		"androidmanifest.xml": "_file_android",
 		"tsconfig.json":"_file_tsconfig",
@@ -3069,8 +3169,7 @@
         ".eslintcache.yml": "_file_eslint",
         "eslint.config.yml": "_file_eslint",
 
-        "auth.http":"_file_auth",
-        "auth.https":"_file_auth",
+        
 		"app.json": "_file_expo",
         "app.config.js": "_file_expo",
         "app.config.json": "_file_expo",
@@ -3267,6 +3366,7 @@
         "azcli":"_file_azure",
         "ballerina":"_file_ballerina",
         "ats":"_file_ats",
+        "tox":"_file_tox",
 		"git-rebase": "_file_git",
         "autohotkey":"_file_autohotkey",
 		"latex-expl3": "_file_tex",
