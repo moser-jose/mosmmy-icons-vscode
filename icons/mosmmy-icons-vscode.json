@@ -52,7 +52,6 @@
 		"_folder_expo_open": {
 			"iconPath": "./svg/mo_folder_expo_open.svg"
 		},
-		
 		"_folder_tests": {
 			"iconPath": "./svg/mo_folder_test.svg"
 		},
@@ -84,21 +83,18 @@
 		"_folder_generators_open": {
 			"iconPath": "./svg/mo_folder_generators_open.svg"
 		},
-		
 		"_folder_scheme": {
 			"iconPath": "./svg/mo_folder_scheme.svg"
 		},
 		"_folder_scheme_open": {
 			"iconPath": "./svg/mo_folder_scheme_open.svg"
 		},
-		
 		"_folder_user": {
 			"iconPath": "./svg/mo_folder_user.svg"
 		},
 		"_folder_user_open": {
 			"iconPath": "./svg/mo_folder_user_open.svg"
 		},
-		
 		"_folder_workers": {
 			"iconPath": "./svg/mo_folder_workers.svg"
 		},
