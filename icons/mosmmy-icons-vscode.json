@@ -741,6 +741,19 @@
 		"_folder_font_open": {
 			"iconPath": "./svg/mo_folder_font_open.svg"
 		},
+        "_folder_cursor": {
+			"iconPath": "./svg/mo_folder_cursor.svg"
+		},
+		"_folder_cursor_open": {
+			"iconPath": "./svg/mo_folder_cursor_open.svg"
+		},
+        
+        "_folder_types": {
+			"iconPath": "./svg/mo_folder_types.svg"
+		},
+		"_folder_types_open": {
+			"iconPath": "./svg/mo_folder_types_open.svg"
+		},
 		"_file_composer": {
 			"iconPath": "./svg/mo_file_composer.svg"
 		},
@@ -1410,6 +1423,8 @@
         }
         ,"_file_apex":{
             "iconPath": "./svg/mo_file_apex.svg"
+        },"_file_cursor":{
+            "iconPath": "./svg/mo_file_cursor.svg"
         },"_file_apib":{
             "iconPath": "./svg/mo_file_apib.svg"
         },"_file_api_extractor":{
@@ -1579,8 +1594,8 @@
 		"mocks": "_folder_tests",
 		"__mocks__": "_folder_tests",
 		"stubs": "_folder_tests",
-		"__tests__": "_folder_jest",
-		"__snapshots": "_folder_jest",
+		"__tests__": "_folder_tests",
+		"__snapshots": "_folder_tests",
         "audios":"_folder_audio",
         "audio":"_folder_audio",
         ".audio":"_folder_audio",
@@ -1817,7 +1832,7 @@
         "utils":"_folder_utilities",
         "service":"_folder_service",
         "services":"_folder_service",
-
+        ".cursor":"_folder_cursor",
         "mariadb":"_folder_mariadb",
         "maria":"_folder_mariadb",
         ".vs":"_folder_visualstudio",
@@ -1843,7 +1858,13 @@
         "storage":"_folder_storage",
         "storages":"_folder_storage",
         "endpoint":"_folder_endpoint",
-        "endpoints":"_folder_endpoint"
+        "endpoints":"_folder_endpoint",
+        "types":"_folder_types",
+        "type":"_folder_types",
+        ".types":"_folder_types",
+        ".type":"_folder_types",
+        "@types":"_folder_types",
+        "__types__":"_folder_types"
 	},
 	"folderNamesExpanded": {
         "app":"_folder_app_open",
@@ -1965,8 +1986,8 @@
 		"mocks": "_folder_tests_open",
 		"__mocks__": "_folder_tests_open",
 		"stubs": "_folder_tests_open",
-		"__tests__": "_folder_jest_open",
-		"__snapshots": "_folder_jest_open",
+		"__tests__": "_folder_tests_open",
+		"__snapshots": "_folder_tests_open",
         "audios":"_folder_audio_open",
         "audio":"_folder_audio_open",
         ".audios":"_folder_audio_open",
@@ -2127,7 +2148,7 @@
         "linux":"_folder_linux_open",
         "ios":"_folder_ios_open",
         "debian":"_folder_debian_open",
-
+        ".cursor":"_folder_cursor_open",
         "config":"_folder_config_open",
         ".config":"_folder_config_open",
         "configs":"_folder_config_open",
@@ -2184,7 +2205,13 @@
         "migrations":"_folder_migrations_open",
         "migration":"_folder_migrations_open",
         "storage":"_folder_storage_open",
-        "storages":"_folder_storage_open"
+        "storages":"_folder_storage_open",
+        "type":"_folder_types_open",
+        ".types":"_folder_types_open",
+        ".type":"_folder_types_open",
+        "types":"_folder_types_open",
+        "@types":"_folder_types_open",
+        "__types__":"_folder_types_open"
 	},
 	"fileExtensions": {
 		"log":"_file_log",
@@ -2290,7 +2317,6 @@
         "nycrc.json":"_file_nyc",
         "nycrc.yaml":"_file_nyc",
         "nycrc.yml":"_file_nyc",
-
         "nsrirc":"_file_nsri", 
         "nsrirc.js":"_file_nsri",  
         "nsrirc.json":"_file_nsri",  
@@ -2449,6 +2475,7 @@
 		"npmignore": "_file_npm",
 		"ml": "_file_ocaml",
 		"mll": "_file_ocaml",
+        "mdc": "_file_cursor",
 		"mli": "_file_ocaml",
 		"mly": "_file_ocaml",
 		"ocamlmakefile": "_file_ocaml",
@@ -2910,7 +2937,6 @@
         ".huskyrc.json":"_file_husky",
         ".huskyrc.yaml":"_file_husky",
         ".huskyrc.yml":"_file_husky",
-
         "nest-cli.json":"_file_nestjs",
         "nestconfig.json":"_file_nestjs",
         ".sequelizerc":"_file_sequelize",
@@ -3343,7 +3369,8 @@
         ".nsrirc.js":"_file_nsri",
         ".nsrirc.json":"_file_nsri",
         ".nsrirc.yaml":"_file_nsri",
-        ".nsrirc.yml":"_file_nsri"
+        ".nsrirc.yml":"_file_nsri",
+        ".cursorrules":"_file_cursor"
 	},
 	"languageIds": {
         "cuda-cpp":"_file_cuda",
