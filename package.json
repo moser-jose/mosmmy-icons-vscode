@@ -41,6 +41,6 @@
     ]
   },
   "scripts": {
-    "patch": "vsce package"
+    "patch": "npx @vscode/vsce@4 package"
   }
 }

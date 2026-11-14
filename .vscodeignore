@@ -3,3 +3,8 @@
 .gitignore
 vsc-extension-quickstart.md
 style.ai
+# README screenshots: vsce rewrites their links to GitHub, so they do not need to ship
+icons/img/**
+*.vsix
+.editorconfig
+CONTRIBUTING.md
