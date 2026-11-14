@@ -1,13 +1,13 @@
 # `Mosmmy Icons Vscode`
 
-Mais de 200 ícones para ficheiros e pastas no vscode
+Mais de 1.100 ícones para ficheiros e 380 para pastas no vscode
 
  <div align="center">
 
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
-[![Version](https://img.shields.io/visual-studio-marketplace/v/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode&ssr=false#review-details)
-[![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
+[![Installs](https://badgen.net/vs-marketplace/i/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
+[![Version](https://badgen.net/vs-marketplace/v/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode)
+[![Rating](https://badgen.net/vs-marketplace/rating/moserjose.mosmmy-icons-vscode)](https://marketplace.visualstudio.com/items?itemName=moserjose.mosmmy-icons-vscode&ssr=false#review-details)
+[![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 ![Exemplo 1](icons/img/icons.jpg)
